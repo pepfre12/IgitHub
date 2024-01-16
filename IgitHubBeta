@@ -1,7 +1,13 @@
--- Gui to Lua
--- Version: 3.2
+--[[
 
--- Instances:
+		Gui2Lua™
+		10zOfficial
+		Version 1.0.0
+
+]]
+
+
+-- Instances
 
 local IgitHub = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
@@ -12,12 +18,12 @@ local Frame_2 = Instance.new("Frame")
 local UICorner_2 = Instance.new("UICorner")
 local Frame_3 = Instance.new("Frame")
 local UICorner_3 = Instance.new("UICorner")
-local UIGradient = Instance.new("UIGradient")
 local Main = Instance.new("Frame")
 local Corner = Instance.new("UICorner")
 local ButtonHolderFrame = Instance.new("Frame")
 local UIListLayout = Instance.new("UIListLayout")
 local Home = Instance.new("TextButton")
+local Main_2 = Instance.new("TextButton")
 local Frame_4 = Instance.new("Frame")
 local Shadow = Instance.new("ImageLabel")
 local Corner_2 = Instance.new("ImageLabel")
@@ -28,7 +34,28 @@ local Home_2 = Instance.new("Frame")
 local Welcome = Instance.new("TextLabel")
 local plrname = Instance.new("TextLabel")
 local TextLabel = Instance.new("TextLabel")
-local OpenClose = Instance.new("TextButton")
+local Main_3 = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local MasterHub = Instance.new("TextButton")
+local MtrietHub = Instance.new("TextButton")
+local VectorHub = Instance.new("TextButton")
+local NotDone = Instance.new("TextButton")
+local NotDone_2 = Instance.new("TextButton")
+local NotDone_3 = Instance.new("TextButton")
+local NotDone_4 = Instance.new("TextButton")
+local NotDone_5 = Instance.new("TextButton")
+local NotDone_6 = Instance.new("TextButton")
+local NotDone_7 = Instance.new("TextButton")
+local NotDone_8 = Instance.new("TextButton")
+local NotDone_9 = Instance.new("TextButton")
+local NotDone_10 = Instance.new("TextButton")
+local NotDone_11 = Instance.new("TextButton")
+local NotDone_12 = Instance.new("TextButton")
+local NotDone_13 = Instance.new("TextButton")
+local NotDone_14 = Instance.new("TextButton")
+local NotDone_15 = Instance.new("TextButton")
+local OpenClose = Instance.new("ImageButton")
 local UICorner_4 = Instance.new("UICorner")
 local AmbientShadow = Instance.new("ImageLabel")
 local UICorner_5 = Instance.new("UICorner")
@@ -36,8 +63,9 @@ local PenumbraShadow = Instance.new("ImageLabel")
 local UICorner_6 = Instance.new("UICorner")
 local UmbraShadow = Instance.new("ImageLabel")
 local UICorner_7 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
 
---Properties:
+-- Properties
 
 IgitHub.Name = "IgitHub"
 IgitHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -46,8 +74,8 @@ IgitHub.ResetOnSpawn = false
 
 Frame.Parent = IgitHub
 Frame.AnchorPoint = Vector2.new(0.5, 0.5)
-Frame.BackgroundColor3 = Color3.fromRGB(17, 22, 25)
-Frame.BackgroundTransparency = 1.000
+Frame.BackgroundColor3 = Color3.new(0.0666667, 0.0862745, 0.0980392)
+Frame.BackgroundTransparency = 1
 Frame.BorderSizePixel = 0
 Frame.ClipsDescendants = true
 Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -58,69 +86,67 @@ UICorner.Parent = Frame
 A.Name = "A"
 A.Parent = Frame
 A.AnchorPoint = Vector2.new(0.5, 0)
-A.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-A.BackgroundTransparency = 1.000
+A.BackgroundColor3 = Color3.new(1, 1, 1)
+A.BackgroundTransparency = 1
 A.BorderSizePixel = 0
 A.Position = UDim2.new(0.5, 0, 0, 0)
 A.Size = UDim2.new(0, 200, 0, 50)
 A.Font = Enum.Font.SourceSans
 A.Text = "Igit Hub Beta"
-A.TextColor3 = Color3.fromRGB(255, 255, 255)
-A.TextSize = 24.000
-A.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-A.TextTransparency = 1.000
+A.TextColor3 = Color3.new(1, 1, 1)
+A.TextSize = 24
+A.TextStrokeColor3 = Color3.new(1, 1, 1)
+A.TextTransparency = 1
 
 B.Name = "B"
 B.Parent = Frame
 B.AnchorPoint = Vector2.new(0.5, 0)
-B.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-B.BackgroundTransparency = 1.000
+B.BackgroundColor3 = Color3.new(1, 1, 1)
+B.BackgroundTransparency = 1
 B.BorderSizePixel = 0
 B.Position = UDim2.new(0.5, 0, 1, -30)
 B.Size = UDim2.new(0, 200, 0, 30)
 B.Font = Enum.Font.SourceSans
 B.Text = "Made by ???"
-B.TextColor3 = Color3.fromRGB(255, 255, 255)
-B.TextSize = 18.000
-B.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-B.TextTransparency = 1.000
+B.TextColor3 = Color3.new(1, 1, 1)
+B.TextSize = 18
+B.TextStrokeColor3 = Color3.new(1, 1, 1)
+B.TextTransparency = 1
 
 Frame_2.Parent = Frame
 Frame_2.AnchorPoint = Vector2.new(0.5, 0.5)
-Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_2.BackgroundTransparency = 1.000
+Frame_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame_2.BackgroundTransparency = 1
 Frame_2.Position = UDim2.new(0.5, 0, 0.5, 0)
 Frame_2.Size = UDim2.new(0, 230, 0, 10)
 
 UICorner_2.Parent = Frame_2
 
 Frame_3.Parent = Frame_2
-Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_3.BackgroundTransparency = 1.000
+Frame_3.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame_3.BackgroundTransparency = 1
 Frame_3.BorderSizePixel = 0
 Frame_3.Size = UDim2.new(0, 0, 1, 0)
 
 UICorner_3.Parent = Frame_3
 
-UIGradient.Parent = Frame_3
-
 Main.Name = "Main"
 Main.Parent = IgitHub
 Main.AnchorPoint = Vector2.new(0.5, 0.5)
-Main.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Main.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
 Main.BorderSizePixel = 0
 Main.Position = UDim2.new(0.5, 0, 0.5, 0)
 Main.Size = UDim2.new(0, 575, 0, 334)
 Main.Visible = false
 
-Corner.CornerRadius = UDim.new(0, 1)
 Corner.Name = "Corner"
 Corner.Parent = Main
+Corner.CornerRadius = UDim.new(0, 1)
 
 ButtonHolderFrame.Name = "ButtonHolderFrame"
 ButtonHolderFrame.Parent = Main
-ButtonHolderFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-ButtonHolderFrame.BackgroundTransparency = 1.000
+ButtonHolderFrame.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+ButtonHolderFrame.BackgroundTransparency = 1
 ButtonHolderFrame.Position = UDim2.new(0.0275455117, 0, 0.179271579, 0)
 ButtonHolderFrame.Size = UDim2.new(0, 128, 0, 293)
 
@@ -130,17 +156,28 @@ UIListLayout.Padding = UDim.new(0, 6)
 
 Home.Name = "Home"
 Home.Parent = ButtonHolderFrame
-Home.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Home.BackgroundTransparency = 1.000
+Home.BackgroundColor3 = Color3.new(1, 1, 1)
+Home.BackgroundTransparency = 1
 Home.Size = UDim2.new(0, 72, 0, 25)
 Home.Font = Enum.Font.GothamMedium
 Home.Text = "Home"
-Home.TextColor3 = Color3.fromRGB(150, 150, 150)
-Home.TextSize = 12.000
+Home.TextColor3 = Color3.new(0.588235, 0.588235, 0.588235)
+Home.TextSize = 12
 Home.TextXAlignment = Enum.TextXAlignment.Left
 
+Main_2.Name = "Main"
+Main_2.Parent = ButtonHolderFrame
+Main_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Main_2.BackgroundTransparency = 1
+Main_2.Size = UDim2.new(0, 72, 0, 25)
+Main_2.Font = Enum.Font.GothamMedium
+Main_2.Text = "Main"
+Main_2.TextColor3 = Color3.new(0.588235, 0.588235, 0.588235)
+Main_2.TextSize = 12
+Main_2.TextXAlignment = Enum.TextXAlignment.Left
+
 Frame_4.Parent = Main
-Frame_4.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Frame_4.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
 Frame_4.BorderSizePixel = 0
 Frame_4.Position = UDim2.new(1.01565218, 0, 0, 0)
 Frame_4.Size = UDim2.new(0, 0, 0, 32)
@@ -148,171 +185,396 @@ Frame_4.Size = UDim2.new(0, 0, 0, 32)
 Shadow.Name = "Shadow"
 Shadow.Parent = Main
 Shadow.AnchorPoint = Vector2.new(0.5, 0.5)
-Shadow.BackgroundTransparency = 1.000
+Shadow.BackgroundTransparency = 1
 Shadow.BorderSizePixel = 0
 Shadow.Position = UDim2.new(0.5, 0, 0.5, 1)
 Shadow.Size = UDim2.new(1, 18, 1, 18)
 Shadow.ZIndex = 0
 Shadow.Image = "rbxassetid://1316045217"
-Shadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
-Shadow.ImageTransparency = 0.880
+Shadow.ImageColor3 = Color3.new(0, 0, 0)
+Shadow.ImageTransparency = 0.8799999952316284
 Shadow.ScaleType = Enum.ScaleType.Slice
 Shadow.SliceCenter = Rect.new(10, 10, 118, 118)
 
 Corner_2.Name = "Corner"
 Corner_2.Parent = Main
-Corner_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Corner_2.BackgroundTransparency = 1.000
+Corner_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Corner_2.BackgroundTransparency = 1
 Corner_2.Position = UDim2.new(0, 0, 0.00284124142, 0)
 Corner_2.Size = UDim2.new(0, 575, 0, 332)
 Corner_2.ZIndex = 0
 Corner_2.Image = "http://www.roblox.com/asset/?id=6537695232"
-Corner_2.ImageColor3 = Color3.fromRGB(18, 18, 18)
+Corner_2.ImageColor3 = Color3.new(0.0705882, 0.0705882, 0.0705882)
 
 Version.Name = "Version"
 Version.Parent = Main
-Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Version.BackgroundTransparency = 1.000
+Version.BackgroundColor3 = Color3.new(1, 1, 1)
+Version.BackgroundTransparency = 1
 Version.Position = UDim2.new(0, 0, 0.0665808544, 0)
 Version.Size = UDim2.new(0, 123, 0, 39)
 Version.Font = Enum.Font.GothamBold
 Version.Text = "BETA"
-Version.TextColor3 = Color3.fromRGB(141, 141, 141)
-Version.TextSize = 9.000
+Version.TextColor3 = Color3.new(0.552941, 0.552941, 0.552941)
+Version.TextSize = 9
 
 Title.Name = "Title"
 Title.Parent = Main
-Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title.BackgroundTransparency = 1.000
+Title.BackgroundColor3 = Color3.new(1, 1, 1)
+Title.BackgroundTransparency = 1
 Title.Position = UDim2.new(0, 0, 0.0419161692, 0)
 Title.Size = UDim2.new(0, 123, 0, 18)
 Title.Font = Enum.Font.GothamBold
 Title.Text = "igit hub"
-Title.TextColor3 = Color3.fromRGB(248, 248, 248)
-Title.TextSize = 12.000
+Title.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+Title.TextSize = 12
 
 FrameHolder.Name = "FrameHolder"
 FrameHolder.Parent = Main
-FrameHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-FrameHolder.BackgroundTransparency = 1.000
+FrameHolder.BackgroundColor3 = Color3.new(1, 1, 1)
+FrameHolder.BackgroundTransparency = 1
 FrameHolder.Position = UDim2.new(0.205272079, 0, 0.00283286115, 0)
 FrameHolder.Size = UDim2.new(0, 457, 0, 350)
 FrameHolder.ZIndex = 3
 
 Home_2.Name = "Home"
 Home_2.Parent = FrameHolder
-Home_2.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
-Home_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Home_2.BackgroundColor3 = Color3.new(0.0862745, 0.0862745, 0.0862745)
+Home_2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
 Home_2.BorderSizePixel = 0
 Home_2.Position = UDim2.new(0.0109409187, 0, 8.02176328e-06, 0)
 Home_2.Size = UDim2.new(0, 451, 0, 332)
 
 Welcome.Name = "Welcome"
 Welcome.Parent = Home_2
-Welcome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Welcome.BackgroundTransparency = 1.000
+Welcome.BackgroundColor3 = Color3.new(1, 1, 1)
+Welcome.BackgroundTransparency = 1
 Welcome.Position = UDim2.new(0.277161866, 0, 0.0451807231, 0)
 Welcome.Size = UDim2.new(0, 200, 0, 50)
 Welcome.Font = Enum.Font.GothamMedium
 Welcome.Text = "welcom to igit hub,"
-Welcome.TextColor3 = Color3.fromRGB(238, 238, 238)
-Welcome.TextSize = 13.000
+Welcome.TextColor3 = Color3.new(0.933333, 0.933333, 0.933333)
+Welcome.TextSize = 13
 
 plrname.Name = "plrname"
 plrname.Parent = Home_2
-plrname.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-plrname.BackgroundTransparency = 1.000
+plrname.BackgroundColor3 = Color3.new(1, 1, 1)
+plrname.BackgroundTransparency = 1
 plrname.Position = UDim2.new(0.277161866, 0, 0.147590354, 0)
 plrname.Size = UDim2.new(0, 200, 0, 43)
 plrname.Font = Enum.Font.GothamMedium
 plrname.Text = "player name"
-plrname.TextColor3 = Color3.fromRGB(186, 186, 186)
-plrname.TextSize = 13.000
+plrname.TextColor3 = Color3.new(0.729412, 0.729412, 0.729412)
+plrname.TextSize = 13
 plrname.TextWrapped = true
 
 TextLabel.Parent = Home_2
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.BorderColor3 = Color3.new(0, 0, 0)
 TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.277161866, 0, 0.457613647, 0)
 TextLabel.Size = UDim2.new(0, 200, 0, 68)
 TextLabel.Font = Enum.Font.SourceSans
 TextLabel.Text = "hi"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextSize = 100.000
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextSize = 100
+
+Main_3.Name = "Main"
+Main_3.Parent = FrameHolder
+Main_3.BackgroundColor3 = Color3.new(0.0862745, 0.0862745, 0.0862745)
+Main_3.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Main_3.BorderSizePixel = 0
+Main_3.Position = UDim2.new(0.0109409187, 0, 8.02176328e-06, 0)
+Main_3.Size = UDim2.new(0, 451, 0, 332)
+Main_3.Visible = false
+
+ScrollingFrame.Parent = Main_3
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.new(0.0862745, 0.0862745, 0.0862745)
+ScrollingFrame.BorderColor3 = Color3.new(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(6.76664698e-08, 0, 0, 0)
+ScrollingFrame.Size = UDim2.new(0, 451, 0, 332)
+ScrollingFrame.ScrollBarThickness = 4
+
+UIListLayout_2.Parent = ScrollingFrame
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.Padding = UDim.new(0, 6)
+
+MasterHub.Name = "MasterHub"
+MasterHub.Parent = ScrollingFrame
+MasterHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+MasterHub.BorderColor3 = Color3.new(0, 0, 0)
+MasterHub.BorderSizePixel = 0
+MasterHub.Size = UDim2.new(0, 450, 0, 31)
+MasterHub.Font = Enum.Font.GothamMedium
+MasterHub.Text = "Master Hub"
+MasterHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+MasterHub.TextSize = 14
+
+MtrietHub.Name = "MtrietHub"
+MtrietHub.Parent = ScrollingFrame
+MtrietHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+MtrietHub.BorderColor3 = Color3.new(0, 0, 0)
+MtrietHub.BorderSizePixel = 0
+MtrietHub.Size = UDim2.new(0, 450, 0, 31)
+MtrietHub.Font = Enum.Font.GothamMedium
+MtrietHub.Text = "Mtriet Hub"
+MtrietHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+MtrietHub.TextSize = 14
+
+VectorHub.Name = "VectorHub"
+VectorHub.Parent = ScrollingFrame
+VectorHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+VectorHub.BorderColor3 = Color3.new(0, 0, 0)
+VectorHub.BorderSizePixel = 0
+VectorHub.Size = UDim2.new(0, 450, 0, 31)
+VectorHub.Font = Enum.Font.GothamMedium
+VectorHub.Text = "Vector Hub"
+VectorHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+VectorHub.TextSize = 14
+
+NotDone.Name = "NotDone"
+NotDone.Parent = ScrollingFrame
+NotDone.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+NotDone.BorderColor3 = Color3.new(0, 0, 0)
+NotDone.BorderSizePixel = 0
+NotDone.Size = UDim2.new(0, 450, 0, 31)
+NotDone.Font = Enum.Font.GothamMedium
+NotDone.Text = "NotDone"
+NotDone.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+NotDone.TextSize = 14
+
+NotDone_2.Name = "NotDone"
+NotDone_2.Parent = ScrollingFrame
+NotDone_2.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+NotDone_2.BorderColor3 = Color3.new(0, 0, 0)
+NotDone_2.BorderSizePixel = 0
+NotDone_2.Size = UDim2.new(0, 450, 0, 31)
+NotDone_2.Font = Enum.Font.GothamMedium
+NotDone_2.Text = "NotDone"
+NotDone_2.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+NotDone_2.TextSize = 14
+
+NotDone_3.Name = "NotDone"
+NotDone_3.Parent = ScrollingFrame
+NotDone_3.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+NotDone_3.BorderColor3 = Color3.new(0, 0, 0)
+NotDone_3.BorderSizePixel = 0
+NotDone_3.Size = UDim2.new(0, 450, 0, 31)
+NotDone_3.Font = Enum.Font.GothamMedium
+NotDone_3.Text = "NotDone"
+NotDone_3.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+NotDone_3.TextSize = 14
+
+NotDone_4.Name = "NotDone"
+NotDone_4.Parent = ScrollingFrame
+NotDone_4.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+NotDone_4.BorderColor3 = Color3.new(0, 0, 0)
+NotDone_4.BorderSizePixel = 0
+NotDone_4.Size = UDim2.new(0, 450, 0, 31)
+NotDone_4.Font = Enum.Font.GothamMedium
+NotDone_4.Text = "NotDone"
+NotDone_4.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+NotDone_4.TextSize = 14
+
+NotDone_5.Name = "NotDone"
+NotDone_5.Parent = ScrollingFrame
+NotDone_5.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+NotDone_5.BorderColor3 = Color3.new(0, 0, 0)
+NotDone_5.BorderSizePixel = 0
+NotDone_5.Size = UDim2.new(0, 450, 0, 31)
+NotDone_5.Font = Enum.Font.GothamMedium
+NotDone_5.Text = "NotDone"
+NotDone_5.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+NotDone_5.TextSize = 14
+
+NotDone_6.Name = "NotDone"
+NotDone_6.Parent = ScrollingFrame
+NotDone_6.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+NotDone_6.BorderColor3 = Color3.new(0, 0, 0)
+NotDone_6.BorderSizePixel = 0
+NotDone_6.Size = UDim2.new(0, 450, 0, 31)
+NotDone_6.Font = Enum.Font.GothamMedium
+NotDone_6.Text = "NotDone"
+NotDone_6.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+NotDone_6.TextSize = 14
+
+NotDone_7.Name = "NotDone"
+NotDone_7.Parent = ScrollingFrame
+NotDone_7.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+NotDone_7.BorderColor3 = Color3.new(0, 0, 0)
+NotDone_7.BorderSizePixel = 0
+NotDone_7.Size = UDim2.new(0, 450, 0, 31)
+NotDone_7.Font = Enum.Font.GothamMedium
+NotDone_7.Text = "NotDone"
+NotDone_7.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+NotDone_7.TextSize = 14
+
+NotDone_8.Name = "NotDone"
+NotDone_8.Parent = ScrollingFrame
+NotDone_8.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+NotDone_8.BorderColor3 = Color3.new(0, 0, 0)
+NotDone_8.BorderSizePixel = 0
+NotDone_8.Size = UDim2.new(0, 450, 0, 31)
+NotDone_8.Font = Enum.Font.GothamMedium
+NotDone_8.Text = "NotDone"
+NotDone_8.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+NotDone_8.TextSize = 14
+
+NotDone_9.Name = "NotDone"
+NotDone_9.Parent = ScrollingFrame
+NotDone_9.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+NotDone_9.BorderColor3 = Color3.new(0, 0, 0)
+NotDone_9.BorderSizePixel = 0
+NotDone_9.Size = UDim2.new(0, 450, 0, 31)
+NotDone_9.Font = Enum.Font.GothamMedium
+NotDone_9.Text = "NotDone"
+NotDone_9.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+NotDone_9.TextSize = 14
+
+NotDone_10.Name = "NotDone"
+NotDone_10.Parent = ScrollingFrame
+NotDone_10.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+NotDone_10.BorderColor3 = Color3.new(0, 0, 0)
+NotDone_10.BorderSizePixel = 0
+NotDone_10.Size = UDim2.new(0, 450, 0, 31)
+NotDone_10.Font = Enum.Font.GothamMedium
+NotDone_10.Text = "NotDone"
+NotDone_10.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+NotDone_10.TextSize = 14
+
+NotDone_11.Name = "NotDone"
+NotDone_11.Parent = ScrollingFrame
+NotDone_11.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+NotDone_11.BorderColor3 = Color3.new(0, 0, 0)
+NotDone_11.BorderSizePixel = 0
+NotDone_11.Size = UDim2.new(0, 450, 0, 31)
+NotDone_11.Font = Enum.Font.GothamMedium
+NotDone_11.Text = "NotDone"
+NotDone_11.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+NotDone_11.TextSize = 14
+
+NotDone_12.Name = "NotDone"
+NotDone_12.Parent = ScrollingFrame
+NotDone_12.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+NotDone_12.BorderColor3 = Color3.new(0, 0, 0)
+NotDone_12.BorderSizePixel = 0
+NotDone_12.Size = UDim2.new(0, 450, 0, 31)
+NotDone_12.Font = Enum.Font.GothamMedium
+NotDone_12.Text = "NotDone"
+NotDone_12.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+NotDone_12.TextSize = 14
+
+NotDone_13.Name = "NotDone"
+NotDone_13.Parent = ScrollingFrame
+NotDone_13.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+NotDone_13.BorderColor3 = Color3.new(0, 0, 0)
+NotDone_13.BorderSizePixel = 0
+NotDone_13.Size = UDim2.new(0, 450, 0, 31)
+NotDone_13.Font = Enum.Font.GothamMedium
+NotDone_13.Text = "NotDone"
+NotDone_13.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+NotDone_13.TextSize = 14
+
+NotDone_14.Name = "NotDone"
+NotDone_14.Parent = ScrollingFrame
+NotDone_14.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+NotDone_14.BorderColor3 = Color3.new(0, 0, 0)
+NotDone_14.BorderSizePixel = 0
+NotDone_14.Size = UDim2.new(0, 450, 0, 31)
+NotDone_14.Font = Enum.Font.GothamMedium
+NotDone_14.Text = "NotDone"
+NotDone_14.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+NotDone_14.TextSize = 14
+
+NotDone_15.Name = "NotDone"
+NotDone_15.Parent = ScrollingFrame
+NotDone_15.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+NotDone_15.BorderColor3 = Color3.new(0, 0, 0)
+NotDone_15.BorderSizePixel = 0
+NotDone_15.Size = UDim2.new(0, 450, 0, 31)
+NotDone_15.Font = Enum.Font.GothamMedium
+NotDone_15.Text = "NotDone"
+NotDone_15.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+NotDone_15.TextSize = 14
 
 OpenClose.Name = "Open/Close"
 OpenClose.Parent = IgitHub
-OpenClose.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
-OpenClose.BorderColor3 = Color3.fromRGB(25, 25, 25)
-OpenClose.BorderSizePixel = 2
-OpenClose.Position = UDim2.new(0.074795723, 0, 0.222222239, 0)
-OpenClose.Size = UDim2.new(0.0593010336, 0, 0.117379323, 0)
+OpenClose.BackgroundColor3 = Color3.new(0, 0, 0)
+OpenClose.BackgroundTransparency = 0.10000000149011612
+OpenClose.Position = UDim2.new(0.075000003, 0, 0.222000003, 0)
+OpenClose.Size = UDim2.new(0, 100, 0, 100)
 OpenClose.Visible = false
-OpenClose.ZIndex = 19
-OpenClose.Font = Enum.Font.GothamMedium
-OpenClose.Text = "IH"
-OpenClose.TextColor3 = Color3.fromRGB(255, 255, 255)
-OpenClose.TextScaled = true
-OpenClose.TextSize = 1.000
-OpenClose.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-OpenClose.TextWrapped = true
+OpenClose.ZIndex = 1000000000
+OpenClose.ScaleType = Enum.ScaleType.Fit
 
-UICorner_4.CornerRadius = UDim.new(0, 100)
 UICorner_4.Parent = OpenClose
+UICorner_4.CornerRadius = UDim.new(0, 100)
 
 AmbientShadow.Name = "AmbientShadow"
 AmbientShadow.Parent = OpenClose
 AmbientShadow.AnchorPoint = Vector2.new(0.5, 0.5)
-AmbientShadow.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
-AmbientShadow.BackgroundTransparency = 0.800
+AmbientShadow.BackgroundColor3 = Color3.new(0.0705882, 0.0705882, 0.0705882)
+AmbientShadow.BackgroundTransparency = 0.800000011920929
 AmbientShadow.BorderSizePixel = 0
-AmbientShadow.Position = UDim2.new(0.494136661, 0, 0.490254372, 0)
-AmbientShadow.Size = UDim2.new(1.16185832, 0, 1.15877926, 0)
-AmbientShadow.ZIndex = 3
-AmbientShadow.ImageTransparency = 1.000
+AmbientShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
+AmbientShadow.Size = UDim2.new(1.03286374, 4, 1.02655482, 5)
+AmbientShadow.ZIndex = 999999998
+AmbientShadow.ImageTransparency = 1
 AmbientShadow.ScaleType = Enum.ScaleType.Slice
 AmbientShadow.SliceCenter = Rect.new(10, 10, 118, 118)
 
-UICorner_5.CornerRadius = UDim.new(0, 100)
 UICorner_5.Parent = AmbientShadow
+UICorner_5.CornerRadius = UDim.new(0, 100)
 
 PenumbraShadow.Name = "PenumbraShadow"
 PenumbraShadow.Parent = OpenClose
 PenumbraShadow.AnchorPoint = Vector2.new(0.5, 0.5)
-PenumbraShadow.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-PenumbraShadow.BackgroundTransparency = 0.880
+PenumbraShadow.BackgroundColor3 = Color3.new(0, 0, 0)
+PenumbraShadow.BackgroundTransparency = 0.8799999952316284
 PenumbraShadow.BorderSizePixel = 0
 PenumbraShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
-PenumbraShadow.Size = UDim2.new(1.2110821, 0, 1.21006715, 0)
-PenumbraShadow.ZIndex = 3
-PenumbraShadow.ImageTransparency = 0.880
+PenumbraShadow.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow.ZIndex = 999999998
+PenumbraShadow.ImageTransparency = 0.8799999952316284
 PenumbraShadow.ScaleType = Enum.ScaleType.Slice
 PenumbraShadow.SliceCenter = Rect.new(10, 10, 118, 118)
 
-UICorner_6.CornerRadius = UDim.new(0, 100)
 UICorner_6.Parent = PenumbraShadow
+UICorner_6.CornerRadius = UDim.new(0, 100)
 
 UmbraShadow.Name = "UmbraShadow"
 UmbraShadow.Parent = OpenClose
 UmbraShadow.AnchorPoint = Vector2.new(0.5, 0.5)
-UmbraShadow.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-UmbraShadow.BackgroundTransparency = 0.860
+UmbraShadow.BackgroundColor3 = Color3.new(0, 0, 0)
+UmbraShadow.BackgroundTransparency = 0.8600000143051147
 UmbraShadow.BorderSizePixel = 0
 UmbraShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
-UmbraShadow.Size = UDim2.new(1.11726785, 0, 1.14752591, 0)
-UmbraShadow.ZIndex = 3
-UmbraShadow.ImageTransparency = 0.860
+UmbraShadow.Size = UDim2.new(1, 10, 1.03082192, 10)
+UmbraShadow.ZIndex = 999999998
+UmbraShadow.ImageTransparency = 0.8600000143051147
 UmbraShadow.ScaleType = Enum.ScaleType.Slice
 UmbraShadow.SliceCenter = Rect.new(10, 10, 118, 118)
 
-UICorner_7.CornerRadius = UDim.new(0, 100)
 UICorner_7.Parent = UmbraShadow
+UICorner_7.CornerRadius = UDim.new(0, 100)
 
--- Scripts:
+TextLabel_2.Parent = OpenClose
+TextLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_2.ZIndex = 1999999999
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "IH"
+TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_2.TextSize = 50
+TextLabel_2.TextTransparency = 0.10000000149011612
 
-local function NRXCUU_fake_script() -- Frame.LocalScript 
+-- Scripts
+
+local function VDKCRH_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local Transparency1 = game:GetService("TweenService"):Create(
@@ -411,8 +673,8 @@ local function NRXCUU_fake_script() -- Frame.LocalScript
 	script.Parent.Parent.Main.Background.LocalScript.Enabled = true
 	script.Parent:Destroy()
 end
-coroutine.wrap(NRXCUU_fake_script)()
-local function OHRJC_fake_script() -- Home.Handler 
+coroutine.wrap(VDKCRH_fake_script)()
+local function WVFIV_fake_script() -- Home.Handler 
 	local script = Instance.new('LocalScript', Home)
 
 	local frameholder = script.Parent.Parent.Parent.FrameHolder
@@ -426,8 +688,8 @@ local function OHRJC_fake_script() -- Home.Handler
 		frame.Visible = true
 	end)
 end
-coroutine.wrap(OHRJC_fake_script)()
-local function LZFAUP_fake_script() -- ButtonHolderFrame.Textcolor3 
+coroutine.wrap(WVFIV_fake_script)()
+local function RUOQWJI_fake_script() -- ButtonHolderFrame.Textcolor3 
 	local script = Instance.new('LocalScript', ButtonHolderFrame)
 
 	for i,v in pairs(script.Parent:GetChildren()) do
@@ -447,8 +709,23 @@ local function LZFAUP_fake_script() -- ButtonHolderFrame.Textcolor3
 	
 	end
 end
-coroutine.wrap(LZFAUP_fake_script)()
-local function MWJN_fake_script() -- Main.Dragify 
+coroutine.wrap(RUOQWJI_fake_script)()
+local function GHHCM_fake_script() -- Main_2.Handler 
+	local script = Instance.new('LocalScript', Main_2)
+
+	local frameholder = script.Parent.Parent.Parent.FrameHolder
+	local frame = frameholder.Main
+	script.Parent.MouseButton1Click:Connect(function()
+		for i,v in pairs(frameholder:GetChildren()) do
+			if v:IsA("Frame") then
+				v.Visible = false
+			end
+		end
+		frame.Visible = true
+	end)
+end
+coroutine.wrap(GHHCM_fake_script)()
+local function IYVM_fake_script() -- Main.Dragify 
 	local script = Instance.new('LocalScript', Main)
 
 	local UIS = game:GetService("UserInputService")
@@ -489,51 +766,41 @@ local function MWJN_fake_script() -- Main.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(MWJN_fake_script)()
-local function YTSEM_fake_script() -- plrname.LocalScript 
+coroutine.wrap(IYVM_fake_script)()
+local function DVZH_fake_script() -- plrname.LocalScript 
 	local script = Instance.new('LocalScript', plrname)
 
 	script.Parent.Text = game:GetService("Players").LocalPlayer.Name
 end
-coroutine.wrap(YTSEM_fake_script)()
-local function GNQJ_fake_script() -- Main.setup 
+coroutine.wrap(DVZH_fake_script)()
+local function IRTMF_fake_script() -- MasterHub.MasterScript 
+	local script = Instance.new('LocalScript', MasterHub)
+
+	MasterHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/jebblox/scriptdatabase2/main/scripts/masterhub.lua"))()
+	end)
+end
+coroutine.wrap(IRTMF_fake_script)()
+local function WUHZQW_fake_script() -- MtrietHub.MtrietScript 
+	local script = Instance.new('LocalScript', MtrietHub)
+
+	MtrietHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/jebblox/scriptdatabase2/main/scripts/masterhub.lua"))()
+	end)
+end
+coroutine.wrap(WUHZQW_fake_script)()
+local function KULXNRS_fake_script() -- VectorHub.VectorScript 
+	local script = Instance.new('LocalScript', VectorHub)
+
+	VectorHub.MouseButton1Down:connect(function()
+		_G.Mode = "English"
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MBPC"))()
+	end)
+end
+coroutine.wrap(KULXNRS_fake_script)()
+local function KTRYEI_fake_script() -- Main.setup 
 	local script = Instance.new('LocalScript', Main)
 
-	
-	
-	for i,v in pairs(script.Parent.FrameHolder.Home:GetDescendants()) do
-		if v:IsA("TextButton") then
-			v.MouseEnter:Connect(function()
-				game:GetService("TweenService"):Create(v, TweenInfo.new(0.1), {
-					['BackgroundColor3'] = Color3.fromRGB(34, 34, 34);
-				}):Play();
-			end)
-	
-			v.MouseLeave:Connect(function()
-				game:GetService("TweenService"):Create(v, TweenInfo.new(0.1), {
-					['BackgroundColor3'] = Color3.fromRGB(26, 26, 26);
-				}):Play();
-			end)
-		end
-	end
-	
-	
-	for i,v in pairs(script.Parent.FrameHolder.Executor:GetDescendants()) do
-		if v:IsA("TextButton") then
-			v.MouseEnter:Connect(function()
-				game:GetService("TweenService"):Create(v, TweenInfo.new(0.1), {
-					['BackgroundColor3'] = Color3.fromRGB(34, 34, 34);
-				}):Play();
-			end)
-	
-			v.MouseLeave:Connect(function()
-				game:GetService("TweenService"):Create(v, TweenInfo.new(0.1), {
-					['BackgroundColor3'] = Color3.fromRGB(26, 26, 26);
-				}):Play();
-			end)
-		end
-	end
-	
 	for i,v in pairs(script.Parent:GetDescendants()) do
 		if v:IsA("TextButton") then
 			v.MouseButton1Click:connect(function()
@@ -542,35 +809,37 @@ local function GNQJ_fake_script() -- Main.setup
 		end
 	end
 end
-coroutine.wrap(GNQJ_fake_script)()
-local function JCKGPSP_fake_script() -- OpenClose.LocalScript 
+coroutine.wrap(KTRYEI_fake_script)()
+local function MJDOGS_fake_script() -- OpenClose.LocalScript 
 	local script = Instance.new('LocalScript', OpenClose)
 
-	script.Parent.MouseEnter:Connect(function()
-	local TweenService = game:GetService"TweenService"
-	local tween = TweenService:Create(
-	    script.Parent,
-	    TweenInfo.new(1),
-	    {
-	        Rotation = 360
-	    }
+	local script = Instance.new('LocalScript', OpenClose)
+	
+	OpenClose.MouseEnter:Connect(function()
+		local TweenService = game:GetService"TweenService"
+		local tween = TweenService:Create(
+			OpenClose,
+			TweenInfo.new(1),
+			{
+				Rotation = 360
+			}
 		)
-	tween:Play()
+		tween:Play()
 	end)
-	script.Parent.MouseLeave:Connect(function()
-	local TweenService = game:GetService"TweenService"
-	local tween = TweenService:Create(
-	    script.Parent,
-	    TweenInfo.new(1),
-	    {
-	        Rotation = 0
-	    }
-	)
-	tween:Play()
+	OpenClose.MouseLeave:Connect(function()
+		local TweenService = game:GetService"TweenService"
+		local tween = TweenService:Create(
+			OpenClose,
+			TweenInfo.new(1),
+			{
+				Rotation = 0
+			}
+		)
+		tween:Play()
 	end)
 	script.Parent.MouseButton1Click:Connect(function()
-		local Main = script.Parent.Parent.Main
 		Main.Visible = not Main.Visible
 	end)
 end
-coroutine.wrap(JCKGPSP_fake_script)()
+
+coroutine.wrap(MJDOGS_fake_script)()
