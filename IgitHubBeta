@@ -709,7 +709,7 @@ NotificationText.TextTransparency = 1
 
 -- Scripts
 
-local function FHDXL_fake_script() -- LOAD.LocalScript 
+local function FJCH_fake_script() -- LOAD.LocalScript 
 	local script = Instance.new('LocalScript', LOAD)
 
 	local Transparency1 = game:GetService("TweenService"):Create(
@@ -759,14 +759,14 @@ local function FHDXL_fake_script() -- LOAD.LocalScript
 	
 	local Transparency7 = game:GetService("TweenService"):Create(
 		script.Parent.Frame,
-	TweenInfo.new(),
+		TweenInfo.new(),
 	{
 		BackgroundTransparency = 0.9
 	}
 	)
 	local Transparency8 = game:GetService("TweenService"):Create(
 		script.Parent.Frame,
-	TweenInfo.new(),
+		TweenInfo.new(),
 	{
 		BackgroundTransparency = 1
 	}
@@ -774,14 +774,14 @@ local function FHDXL_fake_script() -- LOAD.LocalScript
 	
 	local Transparency9 = game:GetService("TweenService"):Create(
 		script.Parent.Frame.Frame2,
-	TweenInfo.new(),
+		TweenInfo.new(),
 	{
 		BackgroundTransparency = 0.1
 	}
 	)
 	local Transparency10 = game:GetService("TweenService"):Create(
 		script.Parent.Frame.Frame2,
-	TweenInfo.new(),
+		TweenInfo.new(),
 	{
 		BackgroundTransparency = 1
 	}
@@ -808,8 +808,8 @@ local function FHDXL_fake_script() -- LOAD.LocalScript
 	
 	script.Parent:Destroy()
 end
-coroutine.wrap(FHDXL_fake_script)()
-local function NJSEC_fake_script() -- Home.Handler 
+coroutine.wrap(FJCH_fake_script)()
+local function SGRGM_fake_script() -- Home.Handler 
 	local script = Instance.new('LocalScript', Home)
 
 	local frameholder = script.Parent.Parent.Parent.FrameHolder
@@ -823,8 +823,8 @@ local function NJSEC_fake_script() -- Home.Handler
 		frame.Visible = true
 	end)
 end
-coroutine.wrap(NJSEC_fake_script)()
-local function CRFEOVP_fake_script() -- ButtonHolderFrame.Textcolor3 
+coroutine.wrap(SGRGM_fake_script)()
+local function CVMW_fake_script() -- ButtonHolderFrame.Textcolor3 
 	local script = Instance.new('LocalScript', ButtonHolderFrame)
 
 	for i,v in pairs(script.Parent:GetChildren()) do
@@ -844,8 +844,8 @@ local function CRFEOVP_fake_script() -- ButtonHolderFrame.Textcolor3
 	
 	end
 end
-coroutine.wrap(CRFEOVP_fake_script)()
-local function ZMQGQG_fake_script() -- Main_2.Handler 
+coroutine.wrap(CVMW_fake_script)()
+local function SIOUB_fake_script() -- Main_2.Handler 
 	local script = Instance.new('LocalScript', Main_2)
 
 	local frameholder = script.Parent.Parent.Parent.FrameHolder
@@ -859,8 +859,8 @@ local function ZMQGQG_fake_script() -- Main_2.Handler
 		frame.Visible = true
 	end)
 end
-coroutine.wrap(ZMQGQG_fake_script)()
-local function QXELRDG_fake_script() -- Main.Dragify 
+coroutine.wrap(SIOUB_fake_script)()
+local function XIVYIGW_fake_script() -- Main.Dragify 
 	local script = Instance.new('LocalScript', Main)
 
 	local UIS = game:GetService("UserInputService")
@@ -901,22 +901,22 @@ local function QXELRDG_fake_script() -- Main.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(QXELRDG_fake_script)()
-local function UKUAN_fake_script() -- plrname.LocalScript 
+coroutine.wrap(XIVYIGW_fake_script)()
+local function MONXB_fake_script() -- plrname.LocalScript 
 	local script = Instance.new('LocalScript', plrname)
 
 	script.Parent.Text = game:GetService("Players").LocalPlayer.Name
 end
-coroutine.wrap(UKUAN_fake_script)()
-local function MXJHV_fake_script() -- MasterHub.MasterScript 
+coroutine.wrap(MONXB_fake_script)()
+local function SMKCV_fake_script() -- MasterHub.MasterScript 
 	local script = Instance.new('LocalScript', MasterHub)
 
 	MasterHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/jebblox/scriptdatabase2/main/scripts/masterhub.lua"))()
 	end)
 end
-coroutine.wrap(MXJHV_fake_script)()
-local function MBGMDYR_fake_script() -- MasterHub.Notif 
+coroutine.wrap(SMKCV_fake_script)()
+local function VCAE_fake_script() -- MasterHub.Notif 
 	local script = Instance.new('LocalScript', MasterHub)
 
 	MasterHub.MouseButton1Down:connect(function()
@@ -924,16 +924,16 @@ local function MBGMDYR_fake_script() -- MasterHub.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(MBGMDYR_fake_script)()
-local function ZBELBWO_fake_script() -- MtrietHub.MtrietScript 
+coroutine.wrap(VCAE_fake_script)()
+local function NZVPGQ_fake_script() -- MtrietHub.MtrietScript 
 	local script = Instance.new('LocalScript', MtrietHub)
 
 	MtrietHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://gist.githubusercontent.com/lxnnydev/1325a6ec942d0bb837bafe0ee25fcc5c/raw/c9ab9f038142427ba1739f099e78bb0b0588fa40/bf_script.lua",true))()
 	end)
 end
-coroutine.wrap(ZBELBWO_fake_script)()
-local function KAWHFVT_fake_script() -- MtrietHub.Notif 
+coroutine.wrap(NZVPGQ_fake_script)()
+local function TSDQMA_fake_script() -- MtrietHub.Notif 
 	local script = Instance.new('LocalScript', MtrietHub)
 
 	MtrietHub.MouseButton1Down:connect(function()
@@ -941,8 +941,8 @@ local function KAWHFVT_fake_script() -- MtrietHub.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(KAWHFVT_fake_script)()
-local function FGBWER_fake_script() -- VectorHub.VectorScript 
+coroutine.wrap(TSDQMA_fake_script)()
+local function RHXR_fake_script() -- VectorHub.VectorScript 
 	local script = Instance.new('LocalScript', VectorHub)
 
 	VectorHub.MouseButton1Down:connect(function()
@@ -950,8 +950,8 @@ local function FGBWER_fake_script() -- VectorHub.VectorScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MBPC"))()
 	end)
 end
-coroutine.wrap(FGBWER_fake_script)()
-local function OUCUML_fake_script() -- VectorHub.Notif 
+coroutine.wrap(RHXR_fake_script)()
+local function NXRSEO_fake_script() -- VectorHub.Notif 
 	local script = Instance.new('LocalScript', VectorHub)
 
 	VectorHub.MouseButton1Down:connect(function()
@@ -959,33 +959,33 @@ local function OUCUML_fake_script() -- VectorHub.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(OUCUML_fake_script)()
-local function YZOQLKW_fake_script() -- DomadicHub.DomadicHub 
+coroutine.wrap(NXRSEO_fake_script)()
+local function PXXOL_fake_script() -- DomadicHub.DomadicHub 
 	local script = Instance.new('LocalScript', DomadicHub)
 
 	DomadicHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
 	end)
 end
-coroutine.wrap(YZOQLKW_fake_script)()
-local function UNQAP_fake_script() -- DomadicHub.Notif 
+coroutine.wrap(PXXOL_fake_script)()
+local function EHBLLCK_fake_script() -- DomadicHub.Notif 
 	local script = Instance.new('LocalScript', DomadicHub)
 
-	DominadicHub.MouseButton1Down:connect(function()
+	DomadicHub.MouseButton1Down:connect(function()
 		Notification.BackgroundTransparency = 0
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(UNQAP_fake_script)()
-local function ZOYMNFF_fake_script() -- FTSXHub.FTSXScript 
+coroutine.wrap(EHBLLCK_fake_script)()
+local function FIGCJ_fake_script() -- FTSXHub.FTSXScript 
 	local script = Instance.new('LocalScript', FTSXHub)
 
 	FTSXHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/tufreescript/FTS-X-Hub/main/FTSXHUB%20V1'))()
 	end)
 end
-coroutine.wrap(ZOYMNFF_fake_script)()
-local function TRBGDAE_fake_script() -- FTSXHub.Notif 
+coroutine.wrap(FIGCJ_fake_script)()
+local function GXQDWFZ_fake_script() -- FTSXHub.Notif 
 	local script = Instance.new('LocalScript', FTSXHub)
 
 	FTSXHub.MouseButton1Down:connect(function()
@@ -993,16 +993,16 @@ local function TRBGDAE_fake_script() -- FTSXHub.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(TRBGDAE_fake_script)()
-local function KLCVC_fake_script() -- CFrameHub.CframeScript 
+coroutine.wrap(GXQDWFZ_fake_script)()
+local function DOSRJIM_fake_script() -- CFrameHub.CframeScript 
 	local script = Instance.new('LocalScript', CFrameHub)
 
 	CFrameHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/tufreescript/FTS-X-Hub/main/FTSXHUB%20V1'))()
 	end)
 end
-coroutine.wrap(KLCVC_fake_script)()
-local function VETQCQM_fake_script() -- CFrameHub.Notif 
+coroutine.wrap(DOSRJIM_fake_script)()
+local function BDGDEK_fake_script() -- CFrameHub.Notif 
 	local script = Instance.new('LocalScript', CFrameHub)
 
 	CFrameHub.MouseButton1Down:connect(function()
@@ -1010,16 +1010,16 @@ local function VETQCQM_fake_script() -- CFrameHub.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(VETQCQM_fake_script)()
-local function ZUHTPV_fake_script() -- ModzHub.ModzScript 
+coroutine.wrap(BDGDEK_fake_script)()
+local function KMZKTV_fake_script() -- ModzHub.ModzScript 
 	local script = Instance.new('LocalScript', ModzHub)
 
 	ModzHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/modz"))()
 	end)
 end
-coroutine.wrap(ZUHTPV_fake_script)()
-local function OSZO_fake_script() -- ModzHub.Notif 
+coroutine.wrap(KMZKTV_fake_script)()
+local function LMUQXX_fake_script() -- ModzHub.Notif 
 	local script = Instance.new('LocalScript', ModzHub)
 
 	ModzHub.MouseButton1Down:connect(function()
@@ -1027,16 +1027,16 @@ local function OSZO_fake_script() -- ModzHub.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(OSZO_fake_script)()
-local function LUJE_fake_script() -- FlaresHub.FlaresScript 
+coroutine.wrap(LMUQXX_fake_script)()
+local function WJEND_fake_script() -- FlaresHub.FlaresScript 
 	local script = Instance.new('LocalScript', FlaresHub)
 
 	FlaresHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/flares"))()
 	end)
 end
-coroutine.wrap(LUJE_fake_script)()
-local function QUOW_fake_script() -- FlaresHub.Notif 
+coroutine.wrap(WJEND_fake_script)()
+local function AFFSOS_fake_script() -- FlaresHub.Notif 
 	local script = Instance.new('LocalScript', FlaresHub)
 
 	FlaresHub.MouseButton1Down:connect(function()
@@ -1044,16 +1044,16 @@ local function QUOW_fake_script() -- FlaresHub.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(QUOW_fake_script)()
-local function ZJYBUIR_fake_script() -- BLCKHub.BLCKScript 
+coroutine.wrap(AFFSOS_fake_script)()
+local function ZJODG_fake_script() -- BLCKHub.BLCKScript 
 	local script = Instance.new('LocalScript', BLCKHub)
 
 	BLCKHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/BLCK"))()
 	end)
 end
-coroutine.wrap(ZJYBUIR_fake_script)()
-local function VYRNZF_fake_script() -- BLCKHub.Notif 
+coroutine.wrap(ZJODG_fake_script)()
+local function NQMCIQ_fake_script() -- BLCKHub.Notif 
 	local script = Instance.new('LocalScript', BLCKHub)
 
 	BLCKHub.MouseButton1Down:connect(function()
@@ -1061,8 +1061,8 @@ local function VYRNZF_fake_script() -- BLCKHub.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(VYRNZF_fake_script)()
-local function CZJGJTC_fake_script() -- AppleHub.AppleScript 
+coroutine.wrap(NQMCIQ_fake_script)()
+local function YRDXNU_fake_script() -- AppleHub.AppleScript 
 	local script = Instance.new('LocalScript', AppleHub)
 
 	AppleHub.MouseButton1Down:connect(function()
@@ -1071,8 +1071,8 @@ local function CZJGJTC_fake_script() -- AppleHub.AppleScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ImTienNguyenZ/AppleHub/main/LoaderBF"))()
 	end)
 end
-coroutine.wrap(CZJGJTC_fake_script)()
-local function MPTERHG_fake_script() -- AppleHub.Notif 
+coroutine.wrap(YRDXNU_fake_script)()
+local function JLSQNB_fake_script() -- AppleHub.Notif 
 	local script = Instance.new('LocalScript', AppleHub)
 
 	AppleHub.MouseButton1Down:connect(function()
@@ -1080,16 +1080,16 @@ local function MPTERHG_fake_script() -- AppleHub.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(MPTERHG_fake_script)()
-local function FRSJC_fake_script() -- MakoriHub.MakoriScript 
+coroutine.wrap(JLSQNB_fake_script)()
+local function ZSNNI_fake_script() -- MakoriHub.MakoriScript 
 	local script = Instance.new('LocalScript', MakoriHub)
 
 	MakoriHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/NewHubX.txt"))()
 	end)
 end
-coroutine.wrap(FRSJC_fake_script)()
-local function HICFXGH_fake_script() -- MakoriHub.Notif 
+coroutine.wrap(ZSNNI_fake_script)()
+local function PYHY_fake_script() -- MakoriHub.Notif 
 	local script = Instance.new('LocalScript', MakoriHub)
 
 	MakoriHub.MouseButton1Down:connect(function()
@@ -1097,16 +1097,16 @@ local function HICFXGH_fake_script() -- MakoriHub.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(HICFXGH_fake_script)()
-local function UPVOQ_fake_script() -- FaiFaoHub.FaiFaoScript 
+coroutine.wrap(PYHY_fake_script)()
+local function ZZAG_fake_script() -- FaiFaoHub.FaiFaoScript 
 	local script = Instance.new('LocalScript', FaiFaoHub)
 
 	FaiFaoHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet"https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao-Ver2.lua")()
 	end)
 end
-coroutine.wrap(UPVOQ_fake_script)()
-local function LJYCF_fake_script() -- FaiFaoHub.Notif 
+coroutine.wrap(ZZAG_fake_script)()
+local function JLHZZED_fake_script() -- FaiFaoHub.Notif 
 	local script = Instance.new('LocalScript', FaiFaoHub)
 
 	FaiFaoHub.MouseButton1Down:connect(function()
@@ -1114,16 +1114,16 @@ local function LJYCF_fake_script() -- FaiFaoHub.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(LJYCF_fake_script)()
-local function PSKHT_fake_script() -- TalkHub.TalkScript 
+coroutine.wrap(JLHZZED_fake_script)()
+local function HRNPWE_fake_script() -- TalkHub.TalkScript 
 	local script = Instance.new('LocalScript', TalkHub)
 
 	TalkHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Domadicoof/Domadicoof/c9f17c5f7d7149abb2686c566b3576b8e04c0605/Talk%20HubBeta.lua'))()
 	end)
 end
-coroutine.wrap(PSKHT_fake_script)()
-local function MBLTPB_fake_script() -- TalkHub.Notif 
+coroutine.wrap(HRNPWE_fake_script)()
+local function VFETFMY_fake_script() -- TalkHub.Notif 
 	local script = Instance.new('LocalScript', TalkHub)
 
 	TalkHub.MouseButton1Down:connect(function()
@@ -1131,16 +1131,16 @@ local function MBLTPB_fake_script() -- TalkHub.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(MBLTPB_fake_script)()
-local function BHRI_fake_script() -- DragonHub.DragonScript 
+coroutine.wrap(VFETFMY_fake_script)()
+local function JGJVICC_fake_script() -- DragonHub.DragonScript 
 	local script = Instance.new('LocalScript', DragonHub)
 
 	DragonHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Dragon-Hub/main/Script-Execute.lua"))()
 	end)
 end
-coroutine.wrap(BHRI_fake_script)()
-local function QJWBEMG_fake_script() -- DragonHub.Notif 
+coroutine.wrap(JGJVICC_fake_script)()
+local function ZSUBL_fake_script() -- DragonHub.Notif 
 	local script = Instance.new('LocalScript', DragonHub)
 
 	DragonHub.MouseButton1Down:connect(function()
@@ -1148,16 +1148,16 @@ local function QJWBEMG_fake_script() -- DragonHub.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(QJWBEMG_fake_script)()
-local function HNSZSA_fake_script() -- NightHub.NightScript 
+coroutine.wrap(ZSUBL_fake_script)()
+local function RERQWR_fake_script() -- NightHub.NightScript 
 	local script = Instance.new('LocalScript', NightHub)
 
 	NightHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NIGHTHUBONTOP/Main/main/NightHub.lua"))()
 	end)
 end
-coroutine.wrap(HNSZSA_fake_script)()
-local function QBDQRU_fake_script() -- NightHub.Notif 
+coroutine.wrap(RERQWR_fake_script)()
+local function AXSVYI_fake_script() -- NightHub.Notif 
 	local script = Instance.new('LocalScript', NightHub)
 
 	NightHub.MouseButton1Down:connect(function()
@@ -1165,16 +1165,16 @@ local function QBDQRU_fake_script() -- NightHub.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(QBDQRU_fake_script)()
-local function SMXLYQM_fake_script() -- SpeedHub.SpeedScript 
+coroutine.wrap(AXSVYI_fake_script)()
+local function LJTFYV_fake_script() -- SpeedHub.SpeedScript 
 	local script = Instance.new('LocalScript', SpeedHub)
 
 	SpeedHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()
 	end)
 end
-coroutine.wrap(SMXLYQM_fake_script)()
-local function HXPM_fake_script() -- SpeedHub.Notif 
+coroutine.wrap(LJTFYV_fake_script)()
+local function ETTPYP_fake_script() -- SpeedHub.Notif 
 	local script = Instance.new('LocalScript', SpeedHub)
 
 	SpeedHub.MouseButton1Down:connect(function()
@@ -1182,16 +1182,16 @@ local function HXPM_fake_script() -- SpeedHub.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(HXPM_fake_script)()
-local function MEDN_fake_script() -- AnnieHubV2.AnnieScript 
+coroutine.wrap(ETTPYP_fake_script)()
+local function BDXEYEC_fake_script() -- AnnieHubV2.AnnieScript 
 	local script = Instance.new('LocalScript', AnnieHubV2)
 
 	AnnieHubV2.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/1st-Mars/Annie/main/1st.lua'))()
 	end)
 end
-coroutine.wrap(MEDN_fake_script)()
-local function XBKX_fake_script() -- AnnieHubV2.Notif 
+coroutine.wrap(BDXEYEC_fake_script)()
+local function ZQHATR_fake_script() -- AnnieHubV2.Notif 
 	local script = Instance.new('LocalScript', AnnieHubV2)
 
 	AnnieHubV2.MouseButton1Down:connect(function()
@@ -1199,16 +1199,16 @@ local function XBKX_fake_script() -- AnnieHubV2.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(XBKX_fake_script)()
-local function WJYNW_fake_script() -- AnnieHubV1.AnnieScript 
+coroutine.wrap(ZQHATR_fake_script)()
+local function KYQCFJN_fake_script() -- AnnieHubV1.AnnieScript 
 	local script = Instance.new('LocalScript', AnnieHubV1)
 
 	AnnieHubV1.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Anniecuti/Free-Scr/main/Annie-Hub.lua"))()
 	end)
 end
-coroutine.wrap(WJYNW_fake_script)()
-local function RHWMN_fake_script() -- AnnieHubV1.Notif 
+coroutine.wrap(KYQCFJN_fake_script)()
+local function NMWNAKV_fake_script() -- AnnieHubV1.Notif 
 	local script = Instance.new('LocalScript', AnnieHubV1)
 
 	AnnieHubV1.MouseButton1Down:connect(function()
@@ -1216,16 +1216,16 @@ local function RHWMN_fake_script() -- AnnieHubV1.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(RHWMN_fake_script)()
-local function GQOOL_fake_script() -- FaiFaoHubV2.DragonScript 
+coroutine.wrap(NMWNAKV_fake_script)()
+local function LTHIYJ_fake_script() -- FaiFaoHubV2.DragonScript 
 	local script = Instance.new('LocalScript', FaiFaoHubV2)
 
 	FaiFaoHubV2.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Dragon-Hub/main/Script-Execute.lua"))()
 	end)
 end
-coroutine.wrap(GQOOL_fake_script)()
-local function FMTD_fake_script() -- FaiFaoHubV2.Notif 
+coroutine.wrap(LTHIYJ_fake_script)()
+local function BSFKDS_fake_script() -- FaiFaoHubV2.Notif 
 	local script = Instance.new('LocalScript', FaiFaoHubV2)
 
 	FaiFaoHubV2.MouseButton1Down:connect(function()
@@ -1233,16 +1233,16 @@ local function FMTD_fake_script() -- FaiFaoHubV2.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(FMTD_fake_script)()
-local function REQX_fake_script() -- RedZHub.RedZScript 
+coroutine.wrap(BSFKDS_fake_script)()
+local function QXMQ_fake_script() -- RedZHub.RedZScript 
 	local script = Instance.new('LocalScript', RedZHub)
 
 	RedZHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
 	end)
 end
-coroutine.wrap(REQX_fake_script)()
-local function XQEYY_fake_script() -- RedZHub.Notif 
+coroutine.wrap(QXMQ_fake_script)()
+local function GDCRDA_fake_script() -- RedZHub.Notif 
 	local script = Instance.new('LocalScript', RedZHub)
 
 	RedZHub.MouseButton1Down:connect(function()
@@ -1250,16 +1250,16 @@ local function XQEYY_fake_script() -- RedZHub.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(XQEYY_fake_script)()
-local function HUYZKTF_fake_script() -- WolfHub.WolfScript 
+coroutine.wrap(GDCRDA_fake_script)()
+local function OHQULQQ_fake_script() -- WolfHub.WolfScript 
 	local script = Instance.new('LocalScript', WolfHub)
 
 	WolfHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://link.trwxz.com/LS-Wolf-Hub'))()
 	end)
 end
-coroutine.wrap(HUYZKTF_fake_script)()
-local function TQDFRSL_fake_script() -- WolfHub.Notif 
+coroutine.wrap(OHQULQQ_fake_script)()
+local function HILIFA_fake_script() -- WolfHub.Notif 
 	local script = Instance.new('LocalScript', WolfHub)
 
 	WolfHub.MouseButton1Down:connect(function()
@@ -1267,16 +1267,16 @@ local function TQDFRSL_fake_script() -- WolfHub.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(TQDFRSL_fake_script)()
-local function ZLSVS_fake_script() -- ZeeHub.ZeeScript 
+coroutine.wrap(HILIFA_fake_script)()
+local function NYSPIN_fake_script() -- ZeeHub.ZeeScript 
 	local script = Instance.new('LocalScript', ZeeHub)
 
 	ZeeHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://link.trwxz.com/LS-Zee-Hub-VIP"))()
 	end)
 end
-coroutine.wrap(ZLSVS_fake_script)()
-local function OCAH_fake_script() -- ZeeHub.Notif 
+coroutine.wrap(NYSPIN_fake_script)()
+local function QSYYPA_fake_script() -- ZeeHub.Notif 
 	local script = Instance.new('LocalScript', ZeeHub)
 
 	ZeeHub.MouseButton1Down:connect(function()
@@ -1284,16 +1284,16 @@ local function OCAH_fake_script() -- ZeeHub.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(OCAH_fake_script)()
-local function SJSW_fake_script() -- GrapeHub.GrapeScript 
+coroutine.wrap(QSYYPA_fake_script)()
+local function TPJO_fake_script() -- GrapeHub.GrapeScript 
 	local script = Instance.new('LocalScript', GrapeHub)
 
 	GrapeHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/kmmwhocare/Grape-Hub/main/Grape%20Hub%20V2.1"))()
 	end)
 end
-coroutine.wrap(SJSW_fake_script)()
-local function SFIX_fake_script() -- GrapeHub.Notif 
+coroutine.wrap(TPJO_fake_script)()
+local function OUDYUNA_fake_script() -- GrapeHub.Notif 
 	local script = Instance.new('LocalScript', GrapeHub)
 
 	GrapeHub.MouseButton1Down:connect(function()
@@ -1301,16 +1301,16 @@ local function SFIX_fake_script() -- GrapeHub.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(SFIX_fake_script)()
-local function MRHGGYI_fake_script() -- RipperHub.RipperScript 
+coroutine.wrap(OUDYUNA_fake_script)()
+local function XEEWBUP_fake_script() -- RipperHub.RipperScript 
 	local script = Instance.new('LocalScript', RipperHub)
 
 	RipperHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/hajibeza/RIPPERMAIN/main/RIPPER-V3-NEWEST'))();
 	end)
 end
-coroutine.wrap(MRHGGYI_fake_script)()
-local function BWJQUG_fake_script() -- RipperHub.Notif 
+coroutine.wrap(XEEWBUP_fake_script)()
+local function EFZKMM_fake_script() -- RipperHub.Notif 
 	local script = Instance.new('LocalScript', RipperHub)
 
 	SnowHub.MouseButton1Down:connect(function()
@@ -1318,16 +1318,16 @@ local function BWJQUG_fake_script() -- RipperHub.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(BWJQUG_fake_script)()
-local function XQID_fake_script() -- SnowHub.SnowScript 
+coroutine.wrap(EFZKMM_fake_script)()
+local function RGQK_fake_script() -- SnowHub.SnowScript 
 	local script = Instance.new('LocalScript', SnowHub)
 
 	SnowHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/ZPSXHUB/Hub/main/SnowHub-BloxFruit'))()
 	end)
 end
-coroutine.wrap(XQID_fake_script)()
-local function ARSNXLN_fake_script() -- SnowHub.Notif 
+coroutine.wrap(RGQK_fake_script)()
+local function FHBVEDK_fake_script() -- SnowHub.Notif 
 	local script = Instance.new('LocalScript', SnowHub)
 
 	FlaresHub.MouseButton1Down:connect(function()
@@ -1335,16 +1335,16 @@ local function ARSNXLN_fake_script() -- SnowHub.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(ARSNXLN_fake_script)()
-local function DBBRMPY_fake_script() -- GantengHub.GantengScript 
+coroutine.wrap(FHBVEDK_fake_script)()
+local function ZYEEQ_fake_script() -- GantengHub.GantengScript 
 	local script = Instance.new('LocalScript', GantengHub)
 
 	GantengHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://isnahamzahpastebin.tech/sepuh/puh_007.lua"))()
 	end)
 end
-coroutine.wrap(DBBRMPY_fake_script)()
-local function JLSITAI_fake_script() -- GantengHub.Notif 
+coroutine.wrap(ZYEEQ_fake_script)()
+local function UZNZIPZ_fake_script() -- GantengHub.Notif 
 	local script = Instance.new('LocalScript', GantengHub)
 
 	GantengHub.MouseButton1Down:connect(function()
@@ -1352,16 +1352,16 @@ local function JLSITAI_fake_script() -- GantengHub.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(JLSITAI_fake_script)()
-local function PILNR_fake_script() -- MamaHub.MamaScript 
+coroutine.wrap(UZNZIPZ_fake_script)()
+local function XDRW_fake_script() -- MamaHub.MamaScript 
 	local script = Instance.new('LocalScript', MamaHub)
 
 	MamaHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/MAMAhub1/Mmahub/main/README.md"))()
 	end)
 end
-coroutine.wrap(PILNR_fake_script)()
-local function OJSUMQW_fake_script() -- MamaHub.Notif 
+coroutine.wrap(XDRW_fake_script)()
+local function RXMKII_fake_script() -- MamaHub.Notif 
 	local script = Instance.new('LocalScript', MamaHub)
 
 	MamaHub.MouseButton1Down:connect(function()
@@ -1369,8 +1369,8 @@ local function OJSUMQW_fake_script() -- MamaHub.Notif
 		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(OJSUMQW_fake_script)()
-local function GPGEZBT_fake_script() -- Main.setup 
+coroutine.wrap(RXMKII_fake_script)()
+local function ZPKMHQ_fake_script() -- Main.setup 
 	local script = Instance.new('LocalScript', Main)
 
 	for i,v in pairs(script.Parent:GetDescendants()) do
@@ -1381,8 +1381,8 @@ local function GPGEZBT_fake_script() -- Main.setup
 		end
 	end
 end
-coroutine.wrap(GPGEZBT_fake_script)()
-local function ERAW_fake_script() -- OpenClose.LocalScript 
+coroutine.wrap(ZPKMHQ_fake_script)()
+local function LPDH_fake_script() -- OpenClose.LocalScript 
 	local script = Instance.new('LocalScript', OpenClose)
 
 	local script = Instance.new('LocalScript', OpenClose)
@@ -1414,8 +1414,8 @@ local function ERAW_fake_script() -- OpenClose.LocalScript
 	end)
 	
 end
-coroutine.wrap(ERAW_fake_script)()
-local function KZXW_fake_script() -- NotificationText.LocalScript 
+coroutine.wrap(LPDH_fake_script)()
+local function AOJJDUS_fake_script() -- NotificationText.LocalScript 
 	local script = Instance.new('LocalScript', NotificationText)
 
 	--local Notification = script.Parent
@@ -1436,8 +1436,8 @@ local function KZXW_fake_script() -- NotificationText.LocalScript
 	end
 	
 end
-coroutine.wrap(KZXW_fake_script)()
-local function GBTWQ_fake_script() -- Notification.LocalScript 
+coroutine.wrap(AOJJDUS_fake_script)()
+local function WPHCSU_fake_script() -- Notification.LocalScript 
 	local script = Instance.new('LocalScript', Notification)
 
 	--local Notification = script.Parent
@@ -1458,4 +1458,4 @@ local function GBTWQ_fake_script() -- Notification.LocalScript
 	end
 	
 end
-coroutine.wrap(GBTWQ_fake_script)()
+coroutine.wrap(WPHCSU_fake_script)()
