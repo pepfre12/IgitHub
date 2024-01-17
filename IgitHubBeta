@@ -1,25 +1,30 @@
--- Gui to Lua
--- Version: 3.2
+--[[
 
--- Instances:
+		Gui2Lua™
+		10zOfficial
+		Version 1.0.0
+
+]]
+
+
+-- Instances
 
 local IgitHub = Instance.new("ScreenGui")
-local Frame = Instance.new("Frame")
+local LOAD = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local A = Instance.new("TextLabel")
 local B = Instance.new("TextLabel")
-local Frame_2 = Instance.new("Frame")
+local Frame = Instance.new("Frame")
 local UICorner_2 = Instance.new("UICorner")
-local Frame_3 = Instance.new("Frame")
+local Frame2 = Instance.new("Frame")
 local UICorner_3 = Instance.new("UICorner")
-local UIGradient = Instance.new("UIGradient")
 local Main = Instance.new("Frame")
 local Corner = Instance.new("UICorner")
 local ButtonHolderFrame = Instance.new("Frame")
 local UIListLayout = Instance.new("UIListLayout")
 local Home = Instance.new("TextButton")
 local Main_2 = Instance.new("TextButton")
-local Frame_4 = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
 local Shadow = Instance.new("ImageLabel")
 local Corner_2 = Instance.new("ImageLabel")
 local Version = Instance.new("TextLabel")
@@ -40,16 +45,25 @@ local FTSXHub = Instance.new("TextButton")
 local CFrameHub = Instance.new("TextButton")
 local ModzHub = Instance.new("TextButton")
 local FlaresHub = Instance.new("TextButton")
-local NotDone = Instance.new("TextButton")
-local NotDone_2 = Instance.new("TextButton")
-local NotDone_3 = Instance.new("TextButton")
-local NotDone_4 = Instance.new("TextButton")
-local NotDone_5 = Instance.new("TextButton")
-local NotDone_6 = Instance.new("TextButton")
-local NotDone_7 = Instance.new("TextButton")
-local NotDone_8 = Instance.new("TextButton")
-local NotDone_9 = Instance.new("TextButton")
-local NotDone_10 = Instance.new("TextButton")
+local BLCKHub = Instance.new("TextButton")
+local AppleHub = Instance.new("TextButton")
+local MakoriHub = Instance.new("TextButton")
+local FaiFaoHub = Instance.new("TextButton")
+local TalkHub = Instance.new("TextButton")
+local DragonHub = Instance.new("TextButton")
+local NightHub = Instance.new("TextButton")
+local SpeedHub = Instance.new("TextButton")
+local AnnieHubV2 = Instance.new("TextButton")
+local AnnieHubV1 = Instance.new("TextButton")
+local FaiFaoHubV2 = Instance.new("TextButton")
+local RedZHub = Instance.new("TextButton")
+local WolfHub = Instance.new("TextButton")
+local ZeeHub = Instance.new("TextButton")
+local GrapeHub = Instance.new("TextButton")
+local RipperHub = Instance.new("TextButton")
+local SnowHub = Instance.new("TextButton")
+local GantengHub = Instance.new("TextButton")
+local MamaHub = Instance.new("TextButton")
 local OpenClose = Instance.new("ImageButton")
 local UICorner_4 = Instance.new("UICorner")
 local AmbientShadow = Instance.new("ImageLabel")
@@ -59,91 +73,93 @@ local UICorner_6 = Instance.new("UICorner")
 local UmbraShadow = Instance.new("ImageLabel")
 local UICorner_7 = Instance.new("UICorner")
 local TextLabel_2 = Instance.new("TextLabel")
+local Notification = Instance.new("Frame")
+local NotificationText = Instance.new("TextLabel")
 
---Properties:
+-- Properties
 
 IgitHub.Name = "IgitHub"
 IgitHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 IgitHub.DisplayOrder = 1000000000
 IgitHub.ResetOnSpawn = false
 
-Frame.Parent = IgitHub
-Frame.AnchorPoint = Vector2.new(0.5, 0.5)
-Frame.BackgroundColor3 = Color3.fromRGB(17, 22, 25)
-Frame.BackgroundTransparency = 1.000
-Frame.BorderSizePixel = 0
-Frame.ClipsDescendants = true
-Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
-Frame.Size = UDim2.new(0, 300, 0, 100)
+LOAD.Name = "LOAD"
+LOAD.Parent = IgitHub
+LOAD.AnchorPoint = Vector2.new(0.5, 0.5)
+LOAD.BackgroundColor3 = Color3.new(0.0666667, 0.0862745, 0.0980392)
+LOAD.BackgroundTransparency = 1
+LOAD.BorderSizePixel = 0
+LOAD.ClipsDescendants = true
+LOAD.Position = UDim2.new(0.5, 0, 0.5, 0)
+LOAD.Size = UDim2.new(0, 300, 0, 100)
 
-UICorner.Parent = Frame
+UICorner.Parent = LOAD
 
 A.Name = "A"
-A.Parent = Frame
+A.Parent = LOAD
 A.AnchorPoint = Vector2.new(0.5, 0)
-A.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-A.BackgroundTransparency = 1.000
+A.BackgroundColor3 = Color3.new(1, 1, 1)
+A.BackgroundTransparency = 1
 A.BorderSizePixel = 0
 A.Position = UDim2.new(0.5, 0, 0, 0)
 A.Size = UDim2.new(0, 200, 0, 50)
 A.Font = Enum.Font.SourceSans
 A.Text = "Igit Hub Beta"
-A.TextColor3 = Color3.fromRGB(255, 255, 255)
-A.TextSize = 24.000
-A.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-A.TextTransparency = 1.000
+A.TextColor3 = Color3.new(1, 1, 1)
+A.TextSize = 24
+A.TextStrokeColor3 = Color3.new(1, 1, 1)
+A.TextTransparency = 1
 
 B.Name = "B"
-B.Parent = Frame
+B.Parent = LOAD
 B.AnchorPoint = Vector2.new(0.5, 0)
-B.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-B.BackgroundTransparency = 1.000
+B.BackgroundColor3 = Color3.new(1, 1, 1)
+B.BackgroundTransparency = 1
 B.BorderSizePixel = 0
 B.Position = UDim2.new(0.5, 0, 1, -30)
 B.Size = UDim2.new(0, 200, 0, 30)
 B.Font = Enum.Font.SourceSans
 B.Text = "Made by ???"
-B.TextColor3 = Color3.fromRGB(255, 255, 255)
-B.TextSize = 18.000
-B.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-B.TextTransparency = 1.000
+B.TextColor3 = Color3.new(1, 1, 1)
+B.TextSize = 18
+B.TextStrokeColor3 = Color3.new(1, 1, 1)
+B.TextTransparency = 1
 
-Frame_2.Parent = Frame
-Frame_2.AnchorPoint = Vector2.new(0.5, 0.5)
-Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_2.BackgroundTransparency = 1.000
-Frame_2.Position = UDim2.new(0.5, 0, 0.5, 0)
-Frame_2.Size = UDim2.new(0, 230, 0, 10)
+Frame.Parent = LOAD
+Frame.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame.BackgroundTransparency = 1
+Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
+Frame.Size = UDim2.new(0, 230, 0, 10)
 
-UICorner_2.Parent = Frame_2
+UICorner_2.Parent = Frame
 
-Frame_3.Parent = Frame_2
-Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_3.BackgroundTransparency = 1.000
-Frame_3.BorderSizePixel = 0
-Frame_3.Size = UDim2.new(0, 0, 1, 0)
+Frame2.Name = "Frame2"
+Frame2.Parent = Frame
+Frame2.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame2.BackgroundTransparency = 1
+Frame2.BorderSizePixel = 0
+Frame2.Size = UDim2.new(0, 0, 1, 0)
 
-UICorner_3.Parent = Frame_3
-
-UIGradient.Parent = Frame_3
+UICorner_3.Parent = Frame2
 
 Main.Name = "Main"
 Main.Parent = IgitHub
 Main.AnchorPoint = Vector2.new(0.5, 0.5)
-Main.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Main.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
 Main.BorderSizePixel = 0
 Main.Position = UDim2.new(0.5, 0, 0.5, 0)
 Main.Size = UDim2.new(0, 575, 0, 334)
 Main.Visible = false
 
-Corner.CornerRadius = UDim.new(0, 1)
 Corner.Name = "Corner"
 Corner.Parent = Main
+Corner.CornerRadius = UDim.new(0, 1)
 
 ButtonHolderFrame.Name = "ButtonHolderFrame"
 ButtonHolderFrame.Parent = Main
-ButtonHolderFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-ButtonHolderFrame.BackgroundTransparency = 1.000
+ButtonHolderFrame.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+ButtonHolderFrame.BackgroundTransparency = 1
 ButtonHolderFrame.Position = UDim2.new(0.0275455117, 0, 0.179271579, 0)
 ButtonHolderFrame.Size = UDim2.new(0, 128, 0, 293)
 
@@ -153,90 +169,90 @@ UIListLayout.Padding = UDim.new(0, 6)
 
 Home.Name = "Home"
 Home.Parent = ButtonHolderFrame
-Home.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Home.BackgroundTransparency = 1.000
+Home.BackgroundColor3 = Color3.new(1, 1, 1)
+Home.BackgroundTransparency = 1
 Home.Size = UDim2.new(0, 72, 0, 25)
 Home.Font = Enum.Font.GothamMedium
 Home.Text = "Home"
-Home.TextColor3 = Color3.fromRGB(150, 150, 150)
-Home.TextSize = 12.000
+Home.TextColor3 = Color3.new(0.588235, 0.588235, 0.588235)
+Home.TextSize = 12
 Home.TextXAlignment = Enum.TextXAlignment.Left
 
 Main_2.Name = "Main"
 Main_2.Parent = ButtonHolderFrame
-Main_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Main_2.BackgroundTransparency = 1.000
+Main_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Main_2.BackgroundTransparency = 1
 Main_2.Size = UDim2.new(0, 72, 0, 25)
 Main_2.Font = Enum.Font.GothamMedium
 Main_2.Text = "Main"
-Main_2.TextColor3 = Color3.fromRGB(150, 150, 150)
-Main_2.TextSize = 12.000
+Main_2.TextColor3 = Color3.new(0.588235, 0.588235, 0.588235)
+Main_2.TextSize = 12
 Main_2.TextXAlignment = Enum.TextXAlignment.Left
 
-Frame_4.Parent = Main
-Frame_4.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-Frame_4.BorderSizePixel = 0
-Frame_4.Position = UDim2.new(1.01565218, 0, 0, 0)
-Frame_4.Size = UDim2.new(0, 0, 0, 32)
+Frame_2.Parent = Main
+Frame_2.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(1.01565218, 0, 0, 0)
+Frame_2.Size = UDim2.new(0, 0, 0, 32)
 
 Shadow.Name = "Shadow"
 Shadow.Parent = Main
 Shadow.AnchorPoint = Vector2.new(0.5, 0.5)
-Shadow.BackgroundTransparency = 1.000
+Shadow.BackgroundTransparency = 1
 Shadow.BorderSizePixel = 0
 Shadow.Position = UDim2.new(0.5, 0, 0.5, 1)
 Shadow.Size = UDim2.new(1, 18, 1, 18)
 Shadow.ZIndex = 0
 Shadow.Image = "rbxassetid://1316045217"
-Shadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
-Shadow.ImageTransparency = 0.880
+Shadow.ImageColor3 = Color3.new(0, 0, 0)
+Shadow.ImageTransparency = 0.8799999952316284
 Shadow.ScaleType = Enum.ScaleType.Slice
 Shadow.SliceCenter = Rect.new(10, 10, 118, 118)
 
 Corner_2.Name = "Corner"
 Corner_2.Parent = Main
-Corner_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Corner_2.BackgroundTransparency = 1.000
+Corner_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Corner_2.BackgroundTransparency = 1
 Corner_2.Position = UDim2.new(0, 0, 0.00284124142, 0)
 Corner_2.Size = UDim2.new(0, 575, 0, 332)
 Corner_2.ZIndex = 0
 Corner_2.Image = "http://www.roblox.com/asset/?id=6537695232"
-Corner_2.ImageColor3 = Color3.fromRGB(18, 18, 18)
+Corner_2.ImageColor3 = Color3.new(0.0705882, 0.0705882, 0.0705882)
 
 Version.Name = "Version"
 Version.Parent = Main
-Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Version.BackgroundTransparency = 1.000
+Version.BackgroundColor3 = Color3.new(1, 1, 1)
+Version.BackgroundTransparency = 1
 Version.Position = UDim2.new(0, 0, 0.0665808544, 0)
 Version.Size = UDim2.new(0, 123, 0, 39)
 Version.Font = Enum.Font.GothamBold
 Version.Text = "BETA"
-Version.TextColor3 = Color3.fromRGB(141, 141, 141)
-Version.TextSize = 9.000
+Version.TextColor3 = Color3.new(0.552941, 0.552941, 0.552941)
+Version.TextSize = 9
 
 Title.Name = "Title"
 Title.Parent = Main
-Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title.BackgroundTransparency = 1.000
+Title.BackgroundColor3 = Color3.new(1, 1, 1)
+Title.BackgroundTransparency = 1
 Title.Position = UDim2.new(0, 0, 0.0419161692, 0)
 Title.Size = UDim2.new(0, 123, 0, 18)
 Title.Font = Enum.Font.GothamBold
 Title.Text = "igit hub"
-Title.TextColor3 = Color3.fromRGB(248, 248, 248)
-Title.TextSize = 12.000
+Title.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+Title.TextSize = 12
 
 FrameHolder.Name = "FrameHolder"
 FrameHolder.Parent = Main
-FrameHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-FrameHolder.BackgroundTransparency = 1.000
+FrameHolder.BackgroundColor3 = Color3.new(1, 1, 1)
+FrameHolder.BackgroundTransparency = 1
 FrameHolder.Position = UDim2.new(0.205272079, 0, 0.00283286115, 0)
 FrameHolder.Size = UDim2.new(0, 457, 0, 350)
 FrameHolder.ZIndex = 3
 
 Home_2.Name = "Home"
 Home_2.Parent = FrameHolder
-Home_2.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
-Home_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Home_2.BackgroundColor3 = Color3.new(0.0862745, 0.0862745, 0.0862745)
+Home_2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
 Home_2.BorderSizePixel = 0
 Home_2.Position = UDim2.new(0.0109409187, 0, 8.02176328e-06, 0)
 Home_2.Size = UDim2.new(0, 451, 0, 332)
@@ -244,54 +260,55 @@ Home_2.Visible = false
 
 Welcome.Name = "Welcome"
 Welcome.Parent = Home_2
-Welcome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Welcome.BackgroundTransparency = 1.000
+Welcome.BackgroundColor3 = Color3.new(1, 1, 1)
+Welcome.BackgroundTransparency = 1
 Welcome.Position = UDim2.new(0.277161866, 0, 0.0451807231, 0)
 Welcome.Size = UDim2.new(0, 200, 0, 50)
 Welcome.Font = Enum.Font.GothamMedium
 Welcome.Text = "welcom to igit hub,"
-Welcome.TextColor3 = Color3.fromRGB(238, 238, 238)
-Welcome.TextSize = 13.000
+Welcome.TextColor3 = Color3.new(0.933333, 0.933333, 0.933333)
+Welcome.TextSize = 13
 
 plrname.Name = "plrname"
 plrname.Parent = Home_2
-plrname.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-plrname.BackgroundTransparency = 1.000
+plrname.BackgroundColor3 = Color3.new(1, 1, 1)
+plrname.BackgroundTransparency = 1
 plrname.Position = UDim2.new(0.277161866, 0, 0.147590354, 0)
 plrname.Size = UDim2.new(0, 200, 0, 43)
 plrname.Font = Enum.Font.GothamMedium
 plrname.Text = "player name"
-plrname.TextColor3 = Color3.fromRGB(186, 186, 186)
-plrname.TextSize = 13.000
+plrname.TextColor3 = Color3.new(0.729412, 0.729412, 0.729412)
+plrname.TextSize = 13
 plrname.TextWrapped = true
 
 TextLabel.Parent = Home_2
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.BorderColor3 = Color3.new(0, 0, 0)
 TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.277161866, 0, 0.457613647, 0)
 TextLabel.Size = UDim2.new(0, 200, 0, 68)
 TextLabel.Font = Enum.Font.SourceSans
 TextLabel.Text = "hi"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextSize = 100.000
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextSize = 100
 
 Main_3.Name = "Main"
 Main_3.Parent = FrameHolder
-Main_3.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
-Main_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Main_3.BackgroundColor3 = Color3.new(0.0862745, 0.0862745, 0.0862745)
+Main_3.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
 Main_3.BorderSizePixel = 0
 Main_3.Position = UDim2.new(0.0109409187, 0, 8.02176328e-06, 0)
 Main_3.Size = UDim2.new(0, 451, 0, 332)
 
 ScrollingFrame.Parent = Main_3
 ScrollingFrame.Active = true
-ScrollingFrame.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
-ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BackgroundColor3 = Color3.new(0.0862745, 0.0862745, 0.0862745)
+ScrollingFrame.BorderColor3 = Color3.new(0, 0, 0)
 ScrollingFrame.BorderSizePixel = 0
 ScrollingFrame.Position = UDim2.new(6.76664698e-08, 0, 0, 0)
 ScrollingFrame.Size = UDim2.new(0, 451, 0, 332)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 3, 0)
 ScrollingFrame.ScrollBarThickness = 4
 
 UIListLayout_2.Parent = ScrollingFrame
@@ -300,279 +317,400 @@ UIListLayout_2.Padding = UDim.new(0, 6)
 
 MasterHub.Name = "MasterHub"
 MasterHub.Parent = ScrollingFrame
-MasterHub.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-MasterHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MasterHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+MasterHub.BorderColor3 = Color3.new(0, 0, 0)
 MasterHub.BorderSizePixel = 0
 MasterHub.Size = UDim2.new(0, 450, 0, 31)
 MasterHub.Font = Enum.Font.GothamMedium
 MasterHub.Text = "Master Hub"
-MasterHub.TextColor3 = Color3.fromRGB(248, 248, 248)
-MasterHub.TextSize = 14.000
+MasterHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+MasterHub.TextSize = 14
 
 MtrietHub.Name = "MtrietHub"
 MtrietHub.Parent = ScrollingFrame
-MtrietHub.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-MtrietHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MtrietHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+MtrietHub.BorderColor3 = Color3.new(0, 0, 0)
 MtrietHub.BorderSizePixel = 0
 MtrietHub.Size = UDim2.new(0, 450, 0, 31)
 MtrietHub.Font = Enum.Font.GothamMedium
 MtrietHub.Text = "Mtriet Hub"
-MtrietHub.TextColor3 = Color3.fromRGB(248, 248, 248)
-MtrietHub.TextSize = 14.000
+MtrietHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+MtrietHub.TextSize = 14
 
 VectorHub.Name = "VectorHub"
 VectorHub.Parent = ScrollingFrame
-VectorHub.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-VectorHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+VectorHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+VectorHub.BorderColor3 = Color3.new(0, 0, 0)
 VectorHub.BorderSizePixel = 0
 VectorHub.Size = UDim2.new(0, 450, 0, 31)
 VectorHub.Font = Enum.Font.GothamMedium
 VectorHub.Text = "Vector Hub"
-VectorHub.TextColor3 = Color3.fromRGB(248, 248, 248)
-VectorHub.TextSize = 14.000
+VectorHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+VectorHub.TextSize = 14
 
 DomadicHub.Name = "DomadicHub"
 DomadicHub.Parent = ScrollingFrame
-DomadicHub.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-DomadicHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DomadicHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+DomadicHub.BorderColor3 = Color3.new(0, 0, 0)
 DomadicHub.BorderSizePixel = 0
 DomadicHub.Size = UDim2.new(0, 450, 0, 31)
 DomadicHub.Font = Enum.Font.GothamMedium
 DomadicHub.Text = "Domadic Hub"
-DomadicHub.TextColor3 = Color3.fromRGB(248, 248, 248)
-DomadicHub.TextSize = 14.000
+DomadicHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+DomadicHub.TextSize = 14
 
 FTSXHub.Name = "FTSXHub"
 FTSXHub.Parent = ScrollingFrame
-FTSXHub.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-FTSXHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FTSXHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+FTSXHub.BorderColor3 = Color3.new(0, 0, 0)
 FTSXHub.BorderSizePixel = 0
 FTSXHub.Size = UDim2.new(0, 450, 0, 31)
 FTSXHub.Font = Enum.Font.GothamMedium
 FTSXHub.Text = "FTS X Hub"
-FTSXHub.TextColor3 = Color3.fromRGB(248, 248, 248)
-FTSXHub.TextSize = 14.000
+FTSXHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+FTSXHub.TextSize = 14
 
 CFrameHub.Name = "CFrameHub"
 CFrameHub.Parent = ScrollingFrame
-CFrameHub.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-CFrameHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CFrameHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+CFrameHub.BorderColor3 = Color3.new(0, 0, 0)
 CFrameHub.BorderSizePixel = 0
 CFrameHub.Size = UDim2.new(0, 450, 0, 31)
 CFrameHub.Font = Enum.Font.GothamMedium
 CFrameHub.Text = "CFrame Hub"
-CFrameHub.TextColor3 = Color3.fromRGB(248, 248, 248)
-CFrameHub.TextSize = 14.000
+CFrameHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+CFrameHub.TextSize = 14
 
 ModzHub.Name = "ModzHub"
 ModzHub.Parent = ScrollingFrame
-ModzHub.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-ModzHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ModzHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+ModzHub.BorderColor3 = Color3.new(0, 0, 0)
 ModzHub.BorderSizePixel = 0
 ModzHub.Size = UDim2.new(0, 450, 0, 31)
 ModzHub.Font = Enum.Font.GothamMedium
 ModzHub.Text = "Modz Hub"
-ModzHub.TextColor3 = Color3.fromRGB(248, 248, 248)
-ModzHub.TextSize = 14.000
+ModzHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+ModzHub.TextSize = 14
 
-FlaresHub.Name = "Flares Hub"
+FlaresHub.Name = "FlaresHub"
 FlaresHub.Parent = ScrollingFrame
-FlaresHub.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-FlaresHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FlaresHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+FlaresHub.BorderColor3 = Color3.new(0, 0, 0)
 FlaresHub.BorderSizePixel = 0
 FlaresHub.Size = UDim2.new(0, 450, 0, 31)
 FlaresHub.Font = Enum.Font.GothamMedium
 FlaresHub.Text = "Flares Hub"
-FlaresHub.TextColor3 = Color3.fromRGB(248, 248, 248)
-FlaresHub.TextSize = 14.000
+FlaresHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+FlaresHub.TextSize = 14
 
-NotDone.Name = "NotDone"
-NotDone.Parent = ScrollingFrame
-NotDone.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-NotDone.BorderColor3 = Color3.fromRGB(0, 0, 0)
-NotDone.BorderSizePixel = 0
-NotDone.Size = UDim2.new(0, 450, 0, 31)
-NotDone.Font = Enum.Font.GothamMedium
-NotDone.Text = "NotDone"
-NotDone.TextColor3 = Color3.fromRGB(248, 248, 248)
-NotDone.TextSize = 14.000
+BLCKHub.Name = "BLCKHub"
+BLCKHub.Parent = ScrollingFrame
+BLCKHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+BLCKHub.BorderColor3 = Color3.new(0, 0, 0)
+BLCKHub.BorderSizePixel = 0
+BLCKHub.Size = UDim2.new(0, 450, 0, 31)
+BLCKHub.Font = Enum.Font.GothamMedium
+BLCKHub.Text = "BLCK Hub"
+BLCKHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+BLCKHub.TextSize = 14
 
-NotDone_2.Name = "NotDone"
-NotDone_2.Parent = ScrollingFrame
-NotDone_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-NotDone_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-NotDone_2.BorderSizePixel = 0
-NotDone_2.Size = UDim2.new(0, 450, 0, 31)
-NotDone_2.Font = Enum.Font.GothamMedium
-NotDone_2.Text = "NotDone"
-NotDone_2.TextColor3 = Color3.fromRGB(248, 248, 248)
-NotDone_2.TextSize = 14.000
+AppleHub.Name = "AppleHub"
+AppleHub.Parent = ScrollingFrame
+AppleHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+AppleHub.BorderColor3 = Color3.new(0, 0, 0)
+AppleHub.BorderSizePixel = 0
+AppleHub.Size = UDim2.new(0, 450, 0, 31)
+AppleHub.Font = Enum.Font.GothamMedium
+AppleHub.Text = "Apple Hub"
+AppleHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+AppleHub.TextSize = 14
 
-NotDone_3.Name = "NotDone"
-NotDone_3.Parent = ScrollingFrame
-NotDone_3.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-NotDone_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-NotDone_3.BorderSizePixel = 0
-NotDone_3.Size = UDim2.new(0, 450, 0, 31)
-NotDone_3.Font = Enum.Font.GothamMedium
-NotDone_3.Text = "NotDone"
-NotDone_3.TextColor3 = Color3.fromRGB(248, 248, 248)
-NotDone_3.TextSize = 14.000
+MakoriHub.Name = "MakoriHub"
+MakoriHub.Parent = ScrollingFrame
+MakoriHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+MakoriHub.BorderColor3 = Color3.new(0, 0, 0)
+MakoriHub.BorderSizePixel = 0
+MakoriHub.Size = UDim2.new(0, 450, 0, 31)
+MakoriHub.Font = Enum.Font.GothamMedium
+MakoriHub.Text = "Makori Hub"
+MakoriHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+MakoriHub.TextSize = 14
 
-NotDone_4.Name = "NotDone"
-NotDone_4.Parent = ScrollingFrame
-NotDone_4.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-NotDone_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-NotDone_4.BorderSizePixel = 0
-NotDone_4.Size = UDim2.new(0, 450, 0, 31)
-NotDone_4.Font = Enum.Font.GothamMedium
-NotDone_4.Text = "NotDone"
-NotDone_4.TextColor3 = Color3.fromRGB(248, 248, 248)
-NotDone_4.TextSize = 14.000
+FaiFaoHub.Name = "FaiFaoHub"
+FaiFaoHub.Parent = ScrollingFrame
+FaiFaoHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+FaiFaoHub.BorderColor3 = Color3.new(0, 0, 0)
+FaiFaoHub.BorderSizePixel = 0
+FaiFaoHub.Size = UDim2.new(0, 450, 0, 31)
+FaiFaoHub.Font = Enum.Font.GothamMedium
+FaiFaoHub.Text = "Fai Fao Hub V1"
+FaiFaoHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+FaiFaoHub.TextSize = 14
 
-NotDone_5.Name = "NotDone"
-NotDone_5.Parent = ScrollingFrame
-NotDone_5.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-NotDone_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-NotDone_5.BorderSizePixel = 0
-NotDone_5.Size = UDim2.new(0, 450, 0, 31)
-NotDone_5.Font = Enum.Font.GothamMedium
-NotDone_5.Text = "NotDone"
-NotDone_5.TextColor3 = Color3.fromRGB(248, 248, 248)
-NotDone_5.TextSize = 14.000
+TalkHub.Name = "TalkHub"
+TalkHub.Parent = ScrollingFrame
+TalkHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+TalkHub.BorderColor3 = Color3.new(0, 0, 0)
+TalkHub.BorderSizePixel = 0
+TalkHub.Size = UDim2.new(0, 450, 0, 31)
+TalkHub.Font = Enum.Font.GothamMedium
+TalkHub.Text = "Talk Hub"
+TalkHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+TalkHub.TextSize = 14
 
-NotDone_6.Name = "NotDone"
-NotDone_6.Parent = ScrollingFrame
-NotDone_6.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-NotDone_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-NotDone_6.BorderSizePixel = 0
-NotDone_6.Size = UDim2.new(0, 450, 0, 31)
-NotDone_6.Font = Enum.Font.GothamMedium
-NotDone_6.Text = "NotDone"
-NotDone_6.TextColor3 = Color3.fromRGB(248, 248, 248)
-NotDone_6.TextSize = 14.000
+DragonHub.Name = "DragonHub"
+DragonHub.Parent = ScrollingFrame
+DragonHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+DragonHub.BorderColor3 = Color3.new(0, 0, 0)
+DragonHub.BorderSizePixel = 0
+DragonHub.Size = UDim2.new(0, 450, 0, 31)
+DragonHub.Font = Enum.Font.GothamMedium
+DragonHub.Text = "Dragon Hub"
+DragonHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+DragonHub.TextSize = 14
 
-NotDone_7.Name = "NotDone"
-NotDone_7.Parent = ScrollingFrame
-NotDone_7.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-NotDone_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-NotDone_7.BorderSizePixel = 0
-NotDone_7.Size = UDim2.new(0, 450, 0, 31)
-NotDone_7.Font = Enum.Font.GothamMedium
-NotDone_7.Text = "NotDone"
-NotDone_7.TextColor3 = Color3.fromRGB(248, 248, 248)
-NotDone_7.TextSize = 14.000
+NightHub.Name = "NightHub"
+NightHub.Parent = ScrollingFrame
+NightHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+NightHub.BorderColor3 = Color3.new(0, 0, 0)
+NightHub.BorderSizePixel = 0
+NightHub.Size = UDim2.new(0, 450, 0, 31)
+NightHub.Font = Enum.Font.GothamMedium
+NightHub.Text = "Night Hub"
+NightHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+NightHub.TextSize = 14
 
-NotDone_8.Name = "NotDone"
-NotDone_8.Parent = ScrollingFrame
-NotDone_8.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-NotDone_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-NotDone_8.BorderSizePixel = 0
-NotDone_8.Size = UDim2.new(0, 450, 0, 31)
-NotDone_8.Font = Enum.Font.GothamMedium
-NotDone_8.Text = "NotDone"
-NotDone_8.TextColor3 = Color3.fromRGB(248, 248, 248)
-NotDone_8.TextSize = 14.000
+SpeedHub.Name = "SpeedHub"
+SpeedHub.Parent = ScrollingFrame
+SpeedHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+SpeedHub.BorderColor3 = Color3.new(0, 0, 0)
+SpeedHub.BorderSizePixel = 0
+SpeedHub.Size = UDim2.new(0, 450, 0, 31)
+SpeedHub.Font = Enum.Font.GothamMedium
+SpeedHub.Text = "Speed Hub"
+SpeedHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+SpeedHub.TextSize = 14
 
-NotDone_9.Name = "NotDone"
-NotDone_9.Parent = ScrollingFrame
-NotDone_9.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-NotDone_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-NotDone_9.BorderSizePixel = 0
-NotDone_9.Size = UDim2.new(0, 450, 0, 31)
-NotDone_9.Font = Enum.Font.GothamMedium
-NotDone_9.Text = "NotDone"
-NotDone_9.TextColor3 = Color3.fromRGB(248, 248, 248)
-NotDone_9.TextSize = 14.000
+AnnieHubV2.Name = "AnnieHubV2"
+AnnieHubV2.Parent = ScrollingFrame
+AnnieHubV2.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+AnnieHubV2.BorderColor3 = Color3.new(0, 0, 0)
+AnnieHubV2.BorderSizePixel = 0
+AnnieHubV2.Size = UDim2.new(0, 450, 0, 31)
+AnnieHubV2.Font = Enum.Font.GothamMedium
+AnnieHubV2.Text = "Annie Hub V2"
+AnnieHubV2.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+AnnieHubV2.TextSize = 14
 
-NotDone_10.Name = "NotDone"
-NotDone_10.Parent = ScrollingFrame
-NotDone_10.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-NotDone_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
-NotDone_10.BorderSizePixel = 0
-NotDone_10.Size = UDim2.new(0, 450, 0, 31)
-NotDone_10.Font = Enum.Font.GothamMedium
-NotDone_10.Text = "NotDone"
-NotDone_10.TextColor3 = Color3.fromRGB(248, 248, 248)
-NotDone_10.TextSize = 14.000
+AnnieHubV1.Name = "AnnieHubV1"
+AnnieHubV1.Parent = ScrollingFrame
+AnnieHubV1.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+AnnieHubV1.BorderColor3 = Color3.new(0, 0, 0)
+AnnieHubV1.BorderSizePixel = 0
+AnnieHubV1.Size = UDim2.new(0, 450, 0, 31)
+AnnieHubV1.Font = Enum.Font.GothamMedium
+AnnieHubV1.Text = "Annie Hub V1"
+AnnieHubV1.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+AnnieHubV1.TextSize = 14
+
+FaiFaoHubV2.Name = "FaiFaoHubV2"
+FaiFaoHubV2.Parent = ScrollingFrame
+FaiFaoHubV2.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+FaiFaoHubV2.BorderColor3 = Color3.new(0, 0, 0)
+FaiFaoHubV2.BorderSizePixel = 0
+FaiFaoHubV2.Size = UDim2.new(0, 450, 0, 31)
+FaiFaoHubV2.Font = Enum.Font.GothamMedium
+FaiFaoHubV2.Text = "Fai Fao Hub V2"
+FaiFaoHubV2.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+FaiFaoHubV2.TextSize = 14
+
+RedZHub.Name = "RedZHub"
+RedZHub.Parent = ScrollingFrame
+RedZHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+RedZHub.BorderColor3 = Color3.new(0, 0, 0)
+RedZHub.BorderSizePixel = 0
+RedZHub.Size = UDim2.new(0, 450, 0, 31)
+RedZHub.Font = Enum.Font.GothamMedium
+RedZHub.Text = "RedZ Hub"
+RedZHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+RedZHub.TextSize = 14
+
+WolfHub.Name = "WolfHub"
+WolfHub.Parent = ScrollingFrame
+WolfHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+WolfHub.BorderColor3 = Color3.new(0, 0, 0)
+WolfHub.BorderSizePixel = 0
+WolfHub.Size = UDim2.new(0, 450, 0, 31)
+WolfHub.Font = Enum.Font.GothamMedium
+WolfHub.Text = "Wolf Hub"
+WolfHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+WolfHub.TextSize = 14
+
+ZeeHub.Name = "ZeeHub"
+ZeeHub.Parent = ScrollingFrame
+ZeeHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+ZeeHub.BorderColor3 = Color3.new(0, 0, 0)
+ZeeHub.BorderSizePixel = 0
+ZeeHub.Size = UDim2.new(0, 450, 0, 31)
+ZeeHub.Font = Enum.Font.GothamMedium
+ZeeHub.Text = "Zee Hub"
+ZeeHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+ZeeHub.TextSize = 14
+
+GrapeHub.Name = "GrapeHub"
+GrapeHub.Parent = ScrollingFrame
+GrapeHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+GrapeHub.BorderColor3 = Color3.new(0, 0, 0)
+GrapeHub.BorderSizePixel = 0
+GrapeHub.Size = UDim2.new(0, 450, 0, 31)
+GrapeHub.Font = Enum.Font.GothamMedium
+GrapeHub.Text = "Grape Hub"
+GrapeHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+GrapeHub.TextSize = 14
+
+RipperHub.Name = "RipperHub"
+RipperHub.Parent = ScrollingFrame
+RipperHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+RipperHub.BorderColor3 = Color3.new(0, 0, 0)
+RipperHub.BorderSizePixel = 0
+RipperHub.Size = UDim2.new(0, 450, 0, 31)
+RipperHub.Font = Enum.Font.GothamMedium
+RipperHub.Text = "Ripper Hub"
+RipperHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+RipperHub.TextSize = 14
+
+SnowHub.Name = "SnowHub"
+SnowHub.Parent = ScrollingFrame
+SnowHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+SnowHub.BorderColor3 = Color3.new(0, 0, 0)
+SnowHub.BorderSizePixel = 0
+SnowHub.Size = UDim2.new(0, 450, 0, 31)
+SnowHub.Font = Enum.Font.GothamMedium
+SnowHub.Text = "Snow Hub"
+SnowHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+SnowHub.TextSize = 14
+
+GantengHub.Name = "GantengHub"
+GantengHub.Parent = ScrollingFrame
+GantengHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+GantengHub.BorderColor3 = Color3.new(0, 0, 0)
+GantengHub.BorderSizePixel = 0
+GantengHub.Size = UDim2.new(0, 450, 0, 31)
+GantengHub.Font = Enum.Font.GothamMedium
+GantengHub.Text = "Ganteng Hub"
+GantengHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+GantengHub.TextSize = 14
+
+MamaHub.Name = "MamaHub"
+MamaHub.Parent = ScrollingFrame
+MamaHub.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+MamaHub.BorderColor3 = Color3.new(0, 0, 0)
+MamaHub.BorderSizePixel = 0
+MamaHub.Size = UDim2.new(0, 450, 0, 31)
+MamaHub.Font = Enum.Font.GothamMedium
+MamaHub.Text = "Mama Hub"
+MamaHub.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+MamaHub.TextSize = 14
 
 OpenClose.Name = "Open/Close"
 OpenClose.Parent = IgitHub
-OpenClose.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-OpenClose.BackgroundTransparency = 0.100
+OpenClose.BackgroundColor3 = Color3.new(0, 0, 0)
+OpenClose.BackgroundTransparency = 0.10000000149011612
 OpenClose.Position = UDim2.new(0.075000003, 0, 0.222000003, 0)
 OpenClose.Size = UDim2.new(0, 100, 0, 100)
 OpenClose.Visible = false
 OpenClose.ZIndex = 1000000000
 OpenClose.ScaleType = Enum.ScaleType.Fit
 
-UICorner_4.CornerRadius = UDim.new(0, 100)
 UICorner_4.Parent = OpenClose
+UICorner_4.CornerRadius = UDim.new(0, 100)
 
 AmbientShadow.Name = "AmbientShadow"
 AmbientShadow.Parent = OpenClose
 AmbientShadow.AnchorPoint = Vector2.new(0.5, 0.5)
-AmbientShadow.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
-AmbientShadow.BackgroundTransparency = 0.800
+AmbientShadow.BackgroundColor3 = Color3.new(0.0705882, 0.0705882, 0.0705882)
+AmbientShadow.BackgroundTransparency = 0.800000011920929
 AmbientShadow.BorderSizePixel = 0
 AmbientShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
 AmbientShadow.Size = UDim2.new(1.03286374, 4, 1.02655482, 5)
 AmbientShadow.ZIndex = 999999998
-AmbientShadow.ImageTransparency = 1.000
+AmbientShadow.ImageTransparency = 1
 AmbientShadow.ScaleType = Enum.ScaleType.Slice
 AmbientShadow.SliceCenter = Rect.new(10, 10, 118, 118)
 
-UICorner_5.CornerRadius = UDim.new(0, 100)
 UICorner_5.Parent = AmbientShadow
+UICorner_5.CornerRadius = UDim.new(0, 100)
 
 PenumbraShadow.Name = "PenumbraShadow"
 PenumbraShadow.Parent = OpenClose
 PenumbraShadow.AnchorPoint = Vector2.new(0.5, 0.5)
-PenumbraShadow.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-PenumbraShadow.BackgroundTransparency = 0.880
+PenumbraShadow.BackgroundColor3 = Color3.new(0, 0, 0)
+PenumbraShadow.BackgroundTransparency = 0.8799999952316284
 PenumbraShadow.BorderSizePixel = 0
 PenumbraShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
 PenumbraShadow.Size = UDim2.new(1, 18, 1, 18)
 PenumbraShadow.ZIndex = 999999998
-PenumbraShadow.ImageTransparency = 0.880
+PenumbraShadow.ImageTransparency = 0.8799999952316284
 PenumbraShadow.ScaleType = Enum.ScaleType.Slice
 PenumbraShadow.SliceCenter = Rect.new(10, 10, 118, 118)
 
-UICorner_6.CornerRadius = UDim.new(0, 100)
 UICorner_6.Parent = PenumbraShadow
+UICorner_6.CornerRadius = UDim.new(0, 100)
 
 UmbraShadow.Name = "UmbraShadow"
 UmbraShadow.Parent = OpenClose
 UmbraShadow.AnchorPoint = Vector2.new(0.5, 0.5)
-UmbraShadow.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-UmbraShadow.BackgroundTransparency = 0.860
+UmbraShadow.BackgroundColor3 = Color3.new(0, 0, 0)
+UmbraShadow.BackgroundTransparency = 0.8600000143051147
 UmbraShadow.BorderSizePixel = 0
 UmbraShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
 UmbraShadow.Size = UDim2.new(1, 10, 1.03082192, 10)
 UmbraShadow.ZIndex = 999999998
-UmbraShadow.ImageTransparency = 0.860
+UmbraShadow.ImageTransparency = 0.8600000143051147
 UmbraShadow.ScaleType = Enum.ScaleType.Slice
 UmbraShadow.SliceCenter = Rect.new(10, 10, 118, 118)
 
-UICorner_7.CornerRadius = UDim.new(0, 100)
 UICorner_7.Parent = UmbraShadow
+UICorner_7.CornerRadius = UDim.new(0, 100)
 
 TextLabel_2.Parent = OpenClose
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_2.BackgroundTransparency = 1
 TextLabel_2.BorderSizePixel = 0
 TextLabel_2.Size = UDim2.new(1, 0, 1, 0)
 TextLabel_2.ZIndex = 1999999999
 TextLabel_2.Font = Enum.Font.SourceSans
 TextLabel_2.Text = "IH"
-TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.TextSize = 50.000
-TextLabel_2.TextTransparency = 0.100
+TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_2.TextSize = 50
+TextLabel_2.TextTransparency = 0.10000000149011612
 
--- Scripts:
+Notification.Name = "Notification"
+Notification.Parent = IgitHub
+Notification.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+Notification.BackgroundTransparency = 1
+Notification.BorderColor3 = Color3.new(0, 0, 0)
+Notification.BorderSizePixel = 0
+Notification.Position = UDim2.new(0.782504201, 0, 0.905750811, 0)
+Notification.Size = UDim2.new(0, 205, 0, 60)
 
-local function ZBKKNT_fake_script() -- Frame.LocalScript 
-	local script = Instance.new('LocalScript', Frame)
+NotificationText.Name = "NotificationText"
+NotificationText.Parent = Notification
+NotificationText.BackgroundColor3 = Color3.new(1, 1, 1)
+NotificationText.BackgroundTransparency = 1
+NotificationText.BorderColor3 = Color3.new(0, 0, 0)
+NotificationText.BorderSizePixel = 0
+NotificationText.Size = UDim2.new(0, 205, 0, 58)
+NotificationText.Font = Enum.Font.GothamMedium
+NotificationText.Text = "Executed script."
+NotificationText.TextColor3 = Color3.new(1, 1, 1)
+NotificationText.TextSize = 25
+NotificationText.TextTransparency = 1
+
+-- Scripts
+
+local function FHDXL_fake_script() -- LOAD.LocalScript 
+	local script = Instance.new('LocalScript', LOAD)
 
 	local Transparency1 = game:GetService("TweenService"):Create(
 		script.Parent,
@@ -620,14 +758,14 @@ local function ZBKKNT_fake_script() -- Frame.LocalScript
 	)
 	
 	local Transparency7 = game:GetService("TweenService"):Create(
-	script.Parent.Frame,
+		script.Parent.Frame,
 	TweenInfo.new(),
 	{
 		BackgroundTransparency = 0.9
 	}
 	)
 	local Transparency8 = game:GetService("TweenService"):Create(
-	script.Parent.Frame,
+		script.Parent.Frame,
 	TweenInfo.new(),
 	{
 		BackgroundTransparency = 1
@@ -635,14 +773,14 @@ local function ZBKKNT_fake_script() -- Frame.LocalScript
 	)
 	
 	local Transparency9 = game:GetService("TweenService"):Create(
-	script.Parent.Frame.Frame,
+		script.Parent.Frame.Frame2,
 	TweenInfo.new(),
 	{
 		BackgroundTransparency = 0.1
 	}
 	)
 	local Transparency10 = game:GetService("TweenService"):Create(
-	script.Parent.Frame.Frame,
+		script.Parent.Frame.Frame2,
 	TweenInfo.new(),
 	{
 		BackgroundTransparency = 1
@@ -656,7 +794,7 @@ local function ZBKKNT_fake_script() -- Frame.LocalScript
 	Transparency7:Play()
 	Transparency9:Play()
 	task.wait(1.5)
-	script.Parent.Frame.Frame:TweenSize(UDim2.new(1,0,1,0))
+	script.Parent.Frame.Frame2:TweenSize(UDim2.new(1,0,1,0))
 	task.wait(1.5)
 	Transparency2:Play()
 	Transparency4:Play()
@@ -665,13 +803,13 @@ local function ZBKKNT_fake_script() -- Frame.LocalScript
 	Transparency10:Play()
 	task.wait(1.5)
 	script.Parent.Parent["Open/Close"].Visible = true
-	script.Parent.Parent.
+	
 	task.wait(0.25)
-	script.Parent.Parent.Main.Background.LocalScript.Enabled = true
+	
 	script.Parent:Destroy()
 end
-coroutine.wrap(ZBKKNT_fake_script)()
-local function FPOBIS_fake_script() -- Home.Handler 
+coroutine.wrap(FHDXL_fake_script)()
+local function NJSEC_fake_script() -- Home.Handler 
 	local script = Instance.new('LocalScript', Home)
 
 	local frameholder = script.Parent.Parent.Parent.FrameHolder
@@ -685,8 +823,8 @@ local function FPOBIS_fake_script() -- Home.Handler
 		frame.Visible = true
 	end)
 end
-coroutine.wrap(FPOBIS_fake_script)()
-local function DKBIAND_fake_script() -- ButtonHolderFrame.Textcolor3 
+coroutine.wrap(NJSEC_fake_script)()
+local function CRFEOVP_fake_script() -- ButtonHolderFrame.Textcolor3 
 	local script = Instance.new('LocalScript', ButtonHolderFrame)
 
 	for i,v in pairs(script.Parent:GetChildren()) do
@@ -706,8 +844,8 @@ local function DKBIAND_fake_script() -- ButtonHolderFrame.Textcolor3
 	
 	end
 end
-coroutine.wrap(DKBIAND_fake_script)()
-local function JNJYRX_fake_script() -- Main_2.Handler 
+coroutine.wrap(CRFEOVP_fake_script)()
+local function ZMQGQG_fake_script() -- Main_2.Handler 
 	local script = Instance.new('LocalScript', Main_2)
 
 	local frameholder = script.Parent.Parent.Parent.FrameHolder
@@ -721,8 +859,8 @@ local function JNJYRX_fake_script() -- Main_2.Handler
 		frame.Visible = true
 	end)
 end
-coroutine.wrap(JNJYRX_fake_script)()
-local function VLGEW_fake_script() -- Main.Dragify 
+coroutine.wrap(ZMQGQG_fake_script)()
+local function QXELRDG_fake_script() -- Main.Dragify 
 	local script = Instance.new('LocalScript', Main)
 
 	local UIS = game:GetService("UserInputService")
@@ -763,30 +901,48 @@ local function VLGEW_fake_script() -- Main.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(VLGEW_fake_script)()
-local function LGYBMS_fake_script() -- plrname.LocalScript 
+coroutine.wrap(QXELRDG_fake_script)()
+local function UKUAN_fake_script() -- plrname.LocalScript 
 	local script = Instance.new('LocalScript', plrname)
 
 	script.Parent.Text = game:GetService("Players").LocalPlayer.Name
 end
-coroutine.wrap(LGYBMS_fake_script)()
-local function LKIY_fake_script() -- MasterHub.MasterScript 
+coroutine.wrap(UKUAN_fake_script)()
+local function MXJHV_fake_script() -- MasterHub.MasterScript 
 	local script = Instance.new('LocalScript', MasterHub)
 
 	MasterHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/jebblox/scriptdatabase2/main/scripts/masterhub.lua"))()
 	end)
 end
-coroutine.wrap(LKIY_fake_script)()
-local function DJCNF_fake_script() -- MtrietHub.MtrietScript 
+coroutine.wrap(MXJHV_fake_script)()
+local function MBGMDYR_fake_script() -- MasterHub.Notif 
+	local script = Instance.new('LocalScript', MasterHub)
+
+	MasterHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(MBGMDYR_fake_script)()
+local function ZBELBWO_fake_script() -- MtrietHub.MtrietScript 
 	local script = Instance.new('LocalScript', MtrietHub)
 
 	MtrietHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://gist.githubusercontent.com/lxnnydev/1325a6ec942d0bb837bafe0ee25fcc5c/raw/c9ab9f038142427ba1739f099e78bb0b0588fa40/bf_script.lua",true))()
 	end)
 end
-coroutine.wrap(DJCNF_fake_script)()
-local function RVET_fake_script() -- VectorHub.VectorScript 
+coroutine.wrap(ZBELBWO_fake_script)()
+local function KAWHFVT_fake_script() -- MtrietHub.Notif 
+	local script = Instance.new('LocalScript', MtrietHub)
+
+	MtrietHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(KAWHFVT_fake_script)()
+local function FGBWER_fake_script() -- VectorHub.VectorScript 
 	local script = Instance.new('LocalScript', VectorHub)
 
 	VectorHub.MouseButton1Down:connect(function()
@@ -794,49 +950,427 @@ local function RVET_fake_script() -- VectorHub.VectorScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MBPC"))()
 	end)
 end
-coroutine.wrap(RVET_fake_script)()
-local function QUMBJWR_fake_script() -- DomadicHub.DomadicHub 
+coroutine.wrap(FGBWER_fake_script)()
+local function OUCUML_fake_script() -- VectorHub.Notif 
+	local script = Instance.new('LocalScript', VectorHub)
+
+	VectorHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(OUCUML_fake_script)()
+local function YZOQLKW_fake_script() -- DomadicHub.DomadicHub 
 	local script = Instance.new('LocalScript', DomadicHub)
 
 	DomadicHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
 	end)
 end
-coroutine.wrap(QUMBJWR_fake_script)()
-local function ZHOINRZ_fake_script() -- FTSXHub.FTSXScript 
+coroutine.wrap(YZOQLKW_fake_script)()
+local function UNQAP_fake_script() -- DomadicHub.Notif 
+	local script = Instance.new('LocalScript', DomadicHub)
+
+	DominadicHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(UNQAP_fake_script)()
+local function ZOYMNFF_fake_script() -- FTSXHub.FTSXScript 
 	local script = Instance.new('LocalScript', FTSXHub)
 
 	FTSXHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/tufreescript/FTS-X-Hub/main/FTSXHUB%20V1'))()
 	end)
 end
-coroutine.wrap(ZHOINRZ_fake_script)()
-local function EBGFJAN_fake_script() -- CFrameHub.CframeScript 
+coroutine.wrap(ZOYMNFF_fake_script)()
+local function TRBGDAE_fake_script() -- FTSXHub.Notif 
+	local script = Instance.new('LocalScript', FTSXHub)
+
+	FTSXHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(TRBGDAE_fake_script)()
+local function KLCVC_fake_script() -- CFrameHub.CframeScript 
 	local script = Instance.new('LocalScript', CFrameHub)
 
 	CFrameHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/tufreescript/FTS-X-Hub/main/FTSXHUB%20V1'))()
 	end)
 end
-coroutine.wrap(EBGFJAN_fake_script)()
-local function AYUZ_fake_script() -- ModzHub.DomadicHub 
+coroutine.wrap(KLCVC_fake_script)()
+local function VETQCQM_fake_script() -- CFrameHub.Notif 
+	local script = Instance.new('LocalScript', CFrameHub)
+
+	CFrameHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(VETQCQM_fake_script)()
+local function ZUHTPV_fake_script() -- ModzHub.ModzScript 
 	local script = Instance.new('LocalScript', ModzHub)
 
 	ModzHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/modz"))()
 	end)
 end
-coroutine.wrap(AYUZ_fake_script)()
-local function LQYCWWM_fake_script() -- FlaresHub.Flares Hub 
-	local script = Instance.new('LocalScript', FlaresHub)
+coroutine.wrap(ZUHTPV_fake_script)()
+local function OSZO_fake_script() -- ModzHub.Notif 
+	local script = Instance.new('LocalScript', ModzHub)
 
-	VectorHub.MouseButton1Down:connect(function()
-		_G.Mode = "English"
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MBPC"))()
+	ModzHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
 	end)
 end
-coroutine.wrap(LQYCWWM_fake_script)()
-local function BEOV_fake_script() -- Main.setup 
+coroutine.wrap(OSZO_fake_script)()
+local function LUJE_fake_script() -- FlaresHub.FlaresScript 
+	local script = Instance.new('LocalScript', FlaresHub)
+
+	FlaresHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/flares"))()
+	end)
+end
+coroutine.wrap(LUJE_fake_script)()
+local function QUOW_fake_script() -- FlaresHub.Notif 
+	local script = Instance.new('LocalScript', FlaresHub)
+
+	FlaresHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(QUOW_fake_script)()
+local function ZJYBUIR_fake_script() -- BLCKHub.BLCKScript 
+	local script = Instance.new('LocalScript', BLCKHub)
+
+	BLCKHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/BLCK"))()
+	end)
+end
+coroutine.wrap(ZJYBUIR_fake_script)()
+local function VYRNZF_fake_script() -- BLCKHub.Notif 
+	local script = Instance.new('LocalScript', BLCKHub)
+
+	BLCKHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(VYRNZF_fake_script)()
+local function CZJGJTC_fake_script() -- AppleHub.AppleScript 
+	local script = Instance.new('LocalScript', AppleHub)
+
+	AppleHub.MouseButton1Down:connect(function()
+		getgenv().NgonNguScript = true
+		repeat task.wait() until game:IsLoaded()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ImTienNguyenZ/AppleHub/main/LoaderBF"))()
+	end)
+end
+coroutine.wrap(CZJGJTC_fake_script)()
+local function MPTERHG_fake_script() -- AppleHub.Notif 
+	local script = Instance.new('LocalScript', AppleHub)
+
+	AppleHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(MPTERHG_fake_script)()
+local function FRSJC_fake_script() -- MakoriHub.MakoriScript 
+	local script = Instance.new('LocalScript', MakoriHub)
+
+	MakoriHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/NewHubX.txt"))()
+	end)
+end
+coroutine.wrap(FRSJC_fake_script)()
+local function HICFXGH_fake_script() -- MakoriHub.Notif 
+	local script = Instance.new('LocalScript', MakoriHub)
+
+	MakoriHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(HICFXGH_fake_script)()
+local function UPVOQ_fake_script() -- FaiFaoHub.FaiFaoScript 
+	local script = Instance.new('LocalScript', FaiFaoHub)
+
+	FaiFaoHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet"https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao-Ver2.lua")()
+	end)
+end
+coroutine.wrap(UPVOQ_fake_script)()
+local function LJYCF_fake_script() -- FaiFaoHub.Notif 
+	local script = Instance.new('LocalScript', FaiFaoHub)
+
+	FaiFaoHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(LJYCF_fake_script)()
+local function PSKHT_fake_script() -- TalkHub.TalkScript 
+	local script = Instance.new('LocalScript', TalkHub)
+
+	TalkHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Domadicoof/Domadicoof/c9f17c5f7d7149abb2686c566b3576b8e04c0605/Talk%20HubBeta.lua'))()
+	end)
+end
+coroutine.wrap(PSKHT_fake_script)()
+local function MBLTPB_fake_script() -- TalkHub.Notif 
+	local script = Instance.new('LocalScript', TalkHub)
+
+	TalkHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(MBLTPB_fake_script)()
+local function BHRI_fake_script() -- DragonHub.DragonScript 
+	local script = Instance.new('LocalScript', DragonHub)
+
+	DragonHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Dragon-Hub/main/Script-Execute.lua"))()
+	end)
+end
+coroutine.wrap(BHRI_fake_script)()
+local function QJWBEMG_fake_script() -- DragonHub.Notif 
+	local script = Instance.new('LocalScript', DragonHub)
+
+	DragonHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(QJWBEMG_fake_script)()
+local function HNSZSA_fake_script() -- NightHub.NightScript 
+	local script = Instance.new('LocalScript', NightHub)
+
+	NightHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NIGHTHUBONTOP/Main/main/NightHub.lua"))()
+	end)
+end
+coroutine.wrap(HNSZSA_fake_script)()
+local function QBDQRU_fake_script() -- NightHub.Notif 
+	local script = Instance.new('LocalScript', NightHub)
+
+	NightHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(QBDQRU_fake_script)()
+local function SMXLYQM_fake_script() -- SpeedHub.SpeedScript 
+	local script = Instance.new('LocalScript', SpeedHub)
+
+	SpeedHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()
+	end)
+end
+coroutine.wrap(SMXLYQM_fake_script)()
+local function HXPM_fake_script() -- SpeedHub.Notif 
+	local script = Instance.new('LocalScript', SpeedHub)
+
+	SpeedHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(HXPM_fake_script)()
+local function MEDN_fake_script() -- AnnieHubV2.AnnieScript 
+	local script = Instance.new('LocalScript', AnnieHubV2)
+
+	AnnieHubV2.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1st-Mars/Annie/main/1st.lua'))()
+	end)
+end
+coroutine.wrap(MEDN_fake_script)()
+local function XBKX_fake_script() -- AnnieHubV2.Notif 
+	local script = Instance.new('LocalScript', AnnieHubV2)
+
+	AnnieHubV2.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(XBKX_fake_script)()
+local function WJYNW_fake_script() -- AnnieHubV1.AnnieScript 
+	local script = Instance.new('LocalScript', AnnieHubV1)
+
+	AnnieHubV1.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Anniecuti/Free-Scr/main/Annie-Hub.lua"))()
+	end)
+end
+coroutine.wrap(WJYNW_fake_script)()
+local function RHWMN_fake_script() -- AnnieHubV1.Notif 
+	local script = Instance.new('LocalScript', AnnieHubV1)
+
+	AnnieHubV1.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(RHWMN_fake_script)()
+local function GQOOL_fake_script() -- FaiFaoHubV2.DragonScript 
+	local script = Instance.new('LocalScript', FaiFaoHubV2)
+
+	FaiFaoHubV2.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Dragon-Hub/main/Script-Execute.lua"))()
+	end)
+end
+coroutine.wrap(GQOOL_fake_script)()
+local function FMTD_fake_script() -- FaiFaoHubV2.Notif 
+	local script = Instance.new('LocalScript', FaiFaoHubV2)
+
+	FaiFaoHubV2.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(FMTD_fake_script)()
+local function REQX_fake_script() -- RedZHub.RedZScript 
+	local script = Instance.new('LocalScript', RedZHub)
+
+	RedZHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+	end)
+end
+coroutine.wrap(REQX_fake_script)()
+local function XQEYY_fake_script() -- RedZHub.Notif 
+	local script = Instance.new('LocalScript', RedZHub)
+
+	RedZHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(XQEYY_fake_script)()
+local function HUYZKTF_fake_script() -- WolfHub.WolfScript 
+	local script = Instance.new('LocalScript', WolfHub)
+
+	WolfHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet('https://link.trwxz.com/LS-Wolf-Hub'))()
+	end)
+end
+coroutine.wrap(HUYZKTF_fake_script)()
+local function TQDFRSL_fake_script() -- WolfHub.Notif 
+	local script = Instance.new('LocalScript', WolfHub)
+
+	WolfHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(TQDFRSL_fake_script)()
+local function ZLSVS_fake_script() -- ZeeHub.ZeeScript 
+	local script = Instance.new('LocalScript', ZeeHub)
+
+	ZeeHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://link.trwxz.com/LS-Zee-Hub-VIP"))()
+	end)
+end
+coroutine.wrap(ZLSVS_fake_script)()
+local function OCAH_fake_script() -- ZeeHub.Notif 
+	local script = Instance.new('LocalScript', ZeeHub)
+
+	ZeeHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(OCAH_fake_script)()
+local function SJSW_fake_script() -- GrapeHub.GrapeScript 
+	local script = Instance.new('LocalScript', GrapeHub)
+
+	GrapeHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/kmmwhocare/Grape-Hub/main/Grape%20Hub%20V2.1"))()
+	end)
+end
+coroutine.wrap(SJSW_fake_script)()
+local function SFIX_fake_script() -- GrapeHub.Notif 
+	local script = Instance.new('LocalScript', GrapeHub)
+
+	GrapeHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(SFIX_fake_script)()
+local function MRHGGYI_fake_script() -- RipperHub.RipperScript 
+	local script = Instance.new('LocalScript', RipperHub)
+
+	RipperHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/hajibeza/RIPPERMAIN/main/RIPPER-V3-NEWEST'))();
+	end)
+end
+coroutine.wrap(MRHGGYI_fake_script)()
+local function BWJQUG_fake_script() -- RipperHub.Notif 
+	local script = Instance.new('LocalScript', RipperHub)
+
+	SnowHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(BWJQUG_fake_script)()
+local function XQID_fake_script() -- SnowHub.SnowScript 
+	local script = Instance.new('LocalScript', SnowHub)
+
+	SnowHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/ZPSXHUB/Hub/main/SnowHub-BloxFruit'))()
+	end)
+end
+coroutine.wrap(XQID_fake_script)()
+local function ARSNXLN_fake_script() -- SnowHub.Notif 
+	local script = Instance.new('LocalScript', SnowHub)
+
+	FlaresHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(ARSNXLN_fake_script)()
+local function DBBRMPY_fake_script() -- GantengHub.GantengScript 
+	local script = Instance.new('LocalScript', GantengHub)
+
+	GantengHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://isnahamzahpastebin.tech/sepuh/puh_007.lua"))()
+	end)
+end
+coroutine.wrap(DBBRMPY_fake_script)()
+local function JLSITAI_fake_script() -- GantengHub.Notif 
+	local script = Instance.new('LocalScript', GantengHub)
+
+	GantengHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(JLSITAI_fake_script)()
+local function PILNR_fake_script() -- MamaHub.MamaScript 
+	local script = Instance.new('LocalScript', MamaHub)
+
+	MamaHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/MAMAhub1/Mmahub/main/README.md"))()
+	end)
+end
+coroutine.wrap(PILNR_fake_script)()
+local function OJSUMQW_fake_script() -- MamaHub.Notif 
+	local script = Instance.new('LocalScript', MamaHub)
+
+	MamaHub.MouseButton1Down:connect(function()
+		Notification.BackgroundTransparency = 0
+		NotificationText.TextTransparency = 0
+	end)
+end
+coroutine.wrap(OJSUMQW_fake_script)()
+local function GPGEZBT_fake_script() -- Main.setup 
 	local script = Instance.new('LocalScript', Main)
 
 	for i,v in pairs(script.Parent:GetDescendants()) do
@@ -847,8 +1381,8 @@ local function BEOV_fake_script() -- Main.setup
 		end
 	end
 end
-coroutine.wrap(BEOV_fake_script)()
-local function ATNJU_fake_script() -- OpenClose.LocalScript 
+coroutine.wrap(GPGEZBT_fake_script)()
+local function ERAW_fake_script() -- OpenClose.LocalScript 
 	local script = Instance.new('LocalScript', OpenClose)
 
 	local script = Instance.new('LocalScript', OpenClose)
@@ -878,6 +1412,50 @@ local function ATNJU_fake_script() -- OpenClose.LocalScript
 	script.Parent.MouseButton1Click:Connect(function()
 		Main.Visible = not Main.Visible
 	end)
-	end
+	
 end
-coroutine.wrap(ATNJU_fake_script)()
+coroutine.wrap(ERAW_fake_script)()
+local function KZXW_fake_script() -- NotificationText.LocalScript 
+	local script = Instance.new('LocalScript', NotificationText)
+
+	--local Notification = script.Parent
+	
+	
+	local function FadeOut()
+	
+		for i = 0, 1, 0.02 do
+			wait(0.02)
+			NotificationText.TextTransparency = i
+		end
+	
+	end
+	
+	if NotificationText.TextTransparency == 0 then
+		wait(5)
+		FadeOut()
+	end
+	
+end
+coroutine.wrap(KZXW_fake_script)()
+local function GBTWQ_fake_script() -- Notification.LocalScript 
+	local script = Instance.new('LocalScript', Notification)
+
+	--local Notification = script.Parent
+	
+	
+	local function FadeOut()
+	
+		for i = 0, 1, 0.02 do
+			wait(0.02)
+			Notification.BackgroundTransparency = i
+		end
+	
+	end
+	
+	if Notification.BackgroundTransparency == 0 then
+		wait(5)
+		FadeOut()
+	end
+	
+end
+coroutine.wrap(GBTWQ_fake_script)()
